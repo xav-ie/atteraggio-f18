@@ -2,7 +2,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/faq">FAQ</router-link> |
+      <router-link to="/schedule">Schedule</router-link> |
+      <router-link to="/map">Map</router-link> |
+      <router-link to="/resources">Resources</router-link> |
+      <router-link to="/workshops">Workshops</router-link> |
+      <router-link to="/prizes">Prizes</router-link>
     </div>
     <router-view/>
   </div>
