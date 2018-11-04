@@ -31,8 +31,8 @@ export default new Router({
     },
     {
       path: "/schedule",
-      name: "Schedule",
-      component: () => import("./views/Schedule.vue")
+      name: "SchedulePage",
+      component: () => import("./views/SchedulePage.vue")
     },
     {
       path: "/workshops",

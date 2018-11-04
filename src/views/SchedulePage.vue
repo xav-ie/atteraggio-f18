@@ -1,0 +1,147 @@
+<template>
+  <div class="FAQ">
+    <div class="schedule-block">
+      <div class="select-date">
+        <div v-on:click="changeDate" class="date-tag" v-bind:class="[sat_day ? 'active-tag' : 'inactive-tag']">
+          <span> Saturday </span>
+        </div>
+        <div v-on:click="changeDate" class="date-tag" v-bind:class="[sat_day ? 'inactive-tag' : 'active-tag']">
+          <span> Sunday </span>
+        </div>
+      </div>
+      <Schedule v-if="sat_day" :events="sat_events" :timelines="timelines" />
+      <Schedule v-else :events="sun_events" :timelines="timelines" />
+    </div>
+  </div>
+</template>
+
+<script>
+  import Schedule from "./Schedule.vue"
+
+  export default {
+    name: "SchedulePage",
+    components: {
+      Schedule
+    },
+    data() {
+      return {
+        sat_day: true,
+        timelines: [
+          "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00"
+        ],
+        sat_events: [ // three categories
+          [
+            {
+              start: "9:30",
+              end: "10:30",
+              type: "event-1",
+              full_name: "First event"
+            },
+            {
+              start: "11:30",
+              end: "12:30",
+              type: "event-1",
+              full_name: "Second event"
+            }
+          ],
+          [
+            {
+              start: "10:30",
+              end: "12:30",
+              type: "event-2",
+              full_name: "Third Event"
+            }
+          ],
+          [
+            {
+              start: "10:30",
+              end: "12:30",
+              type: "event-2",
+              full_name: "Fourth Event"
+            }
+          ]
+        ],
+        sun_events:[
+          [
+            {
+              start: "12:30",
+              end: "15:30",
+              type: "event-1",
+              full_name: "Fourth event"
+            },
+            {
+              start: "16:30",
+              end: "17:30",
+              type: "event-2",
+              full_name: "Fifth event"
+            }
+          ],
+          [
+            {
+              start: "9:30",
+              end: "10:30",
+              type: "event-3",
+              full_name: "Sixth Event"
+            }
+          ],
+          [
+            {
+              start: "10:30",
+              end: "12:30",
+              type: "event-2",
+              full_name: "Fourth Event"
+            }
+          ]
+        ]
+      }
+    },
+    methods: {
+      changeDate: function() {
+        this.sat_day = !this.sat_day
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  .schedule-block{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  }
+  .select-date{
+    position: relative;
+    background-color: #928aa6;
+    height: 80px;
+    padding-left: 20px;
+  }
+
+  .date-tag {
+    position: relative;
+    top: calc(100% - 60px);
+    margin-left: 10px;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+  }
+  .date-tag:hover{
+    cursor: pointer;
+  }
+
+  .date-tag span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+  }
+
+  .active-tag{
+    color: #292760;
+    background-color: white;
+  }
+  .inactive-tag {
+    color: white;
+    background-color: #a7a1b8;
+  }
+</style>
