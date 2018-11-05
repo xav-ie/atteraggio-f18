@@ -1,24 +1,145 @@
 <template>
   <div>
-    <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
-    </b-container>
-
+    <Live/>
     <b-container fluid>
         <b-row class="homeHead">
-            <b-col>Flair</b-col>
-            <b-col cols="6" id="heroText">
+            <b-col>
+              <b-row>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="BlueGridLeft"
+                    src="../assets/Shapes/Grid/BlueSqGrid.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="GreenZigZag"
+                    src="../assets/Shapes/ZigZag/GreenZigZag.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="PinkTriangle"
+                    src="../assets/Shapes/Triangle/PinkTriangle.svg"
+                  />
+                </b-col>
+              </b-row>
+
+              <b-row>
+                <b-col/>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="CoralTrig"
+                    src="../assets/Shapes/Triangle/CoralTriangle.svg"
+                  />
+                </b-col>
+                <b-col/>
+              </b-row>
+
+              <b-row>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="CoralZigLeft"
+                    src="../assets/Shapes/ZigZag/CoralZigZag.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="GreenThinCircle"
+                    src="../assets/Shapes/Circle/GreenThinCircle.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="CoralGrid"
+                    src="../assets/Shapes/Grid/CoralCircleGrid.svg"
+                  />
+                </b-col>
+              </b-row>
+            </b-col>
+
+            <b-col cols="5" id="heroText">
               <div >
                 <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
+                <img
+                  class="Flair"
+                  id="BlueCircle"
+                  src="../assets/Shapes/Circle/BlueThickCircle.svg"
+                />
                 <p class="date">November 10 &#8211; November 11, 2018<br>
                 775 Commonwealth Avenue, Boston University</p>
               </div>
             </b-col>
-            <b-col>Flair</b-col>
+
+            <b-col>
+              <b-row>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="BlueGridCircle"
+                    src="../assets/Shapes/Grid/BlueCircleGrid.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="CoralCircle"
+                    src="../assets/Shapes/Circle/CoralThinCircle.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="PinkCircle"
+                    src="../assets/Shapes/Circle/PinkThinCircle.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="BlueGridRight"
+                    src="../assets/Shapes/Grid/BlueSqGrid.svg"
+                  />
+                </b-col>
+              </b-row>
+              <b-row>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="CoralZigRight"
+                    src="../assets/Shapes/ZigZag/CoralZigZag.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="BlueTrig"
+                    src="../assets/Shapes/Triangle/BlueTriangle.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="GreenThickCircle"
+                    src="../assets/Shapes/Circle/GreenThickCircle.svg"
+                  />
+                </b-col>
+                <b-col>
+                  <img
+                    class="Flair"
+                    id="GreenZigRight"
+                    src="../assets/Shapes/ZigZag/GreenZigZag.svg"
+                  />
+                </b-col>
+              </b-row>
+            </b-col>
         </b-row>
     </b-container>
 
@@ -94,12 +215,100 @@
 <script>
 export default {
   name: "home",
-  components: {}
+  components: {
+    Live
+  }
 };
+import Live from "../components/Live.vue"
 </script>
 
 <style lang="scss">
 
+.Flair {
+  display: flex;
+  overflow: visible;
+}
+
+#BlueGridLeft {
+  max-width: 43%;
+  margin-top: 30%;
+}
+
+#GreenZigZag {
+  max-width: 85%;
+  margin-left: 10%;
+}
+
+#PinkTriangle {
+  max-width: 43%;
+  margin-left: 40%;
+}
+
+#CoralTrig {
+  max-width: 40%;
+}
+
+#BlueCircle {
+  max-width: 5%;
+}
+
+#CoralZigLeft {
+  max-width: 80%;
+  margin-left: -70%;
+}
+
+#GreenThinCircle{
+  max-width: 38%;
+  margin-left: -80%;
+  margin-top: 50%;
+}
+
+#CoralGrid {
+  max-width: 75%;
+  margin-left: -50%;
+}
+
+#BlueGridCircle {
+  max-width: 90%;
+  margin-left: -20%;
+}
+
+#CoralCircle {
+  max-width: 60%;
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
+#PinkCircle {
+  max-width: 40%;
+  margin-left: 30%;
+  margin-top: 110%;
+}
+
+#BlueGridRight {
+  max-width: 65%;
+}
+
+#GreenZigRight {
+  margin-left: 20%;
+  min-width: 90%;
+}
+
+#BlueTrig {
+  max-width: 68%;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+
+#GreenThickCircle {
+  max-width: 55%;
+  margin-left: 50%;
+  margin-top: 120%;
+}
+
+#CoralZigRight {
+  margin-top: 80%;
+}
 
 .heroText {
   color: white;
@@ -110,7 +319,7 @@ export default {
 }
 
 .date{
-  margin-top: 1vh;
+  margin-top: -3vh;
   line-height: 1.75vw;
   font-weight: 300;
   text-align: center;
@@ -118,10 +327,11 @@ export default {
 
 #bolder {
   font-weight: 700;
+  text-align: center;
 }
 
 .homeHead{
-  padding-top: 18vh;
+  padding-top: 14vh;
 }
 
 @media (max-width: 750px) {
@@ -165,16 +375,5 @@ width: 40%;
 margin-left: auto;
 margin-right: auto;
 }
-
-#redot{
-  border: 1px solid #f05352;
-  border-radius: 50px;
-  background-color: #f05352;
-  height: 0.75vw;
-  width: 0.75vw;
-  display: inline-block;
-
-}
-
 
 </style>
