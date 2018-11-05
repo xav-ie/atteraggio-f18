@@ -65,4 +65,32 @@
   }
 </script>
 
-<style src="../assets/css/schedule.css"></style>
+ <style scoped>
+
+  .cd-schedule .event-name,
+  .cd-schedule .event-date {
+    display: block;
+    color: white;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .cd-schedule .event-name {
+    font-size: 1em;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .cd-schedule .event-name {
+      font-size: 2em;
+    }
+  }
+
+  .cd-schedule .event-date {
+    font-size: 1.4em;
+    opacity: .7;
+    line-height: 1.2;
+    margin-bottom: .2em;
+  }
+
+</style>

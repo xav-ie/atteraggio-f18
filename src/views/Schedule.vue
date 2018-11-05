@@ -62,7 +62,7 @@
           </li>
         </ul>
       </div>
-      
+
     </div>
   </div>
 </template>
@@ -93,3 +93,4 @@
     }
   }
 </script>
+<style scoped src="../assets/css/schedule.css"></style>
