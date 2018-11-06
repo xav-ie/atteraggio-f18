@@ -1,6 +1,5 @@
 <template>
   <b-row style="margin-top: 10%;">
-    <!-- <Flair /> -->
     <b-row class="FlairRow">
       <b-col>
         <!-- orange ZigZag -->
@@ -123,7 +122,6 @@
 </template>
 
 <style scoped>
-
 .Flair {
   width: 100%;
   height: auto;
@@ -220,7 +218,9 @@
 </style>
 
 <script>
-  export default {
-    name: "Flair",
+export default {
+  name: "Flair",
+  components: {
   }
+};
 </script>

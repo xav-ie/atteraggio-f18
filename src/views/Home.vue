@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <Live/>
     <b-container fluid>
         <b-row class="homeHead">
@@ -187,22 +188,23 @@
         <p id="bolder">Thank you to our sponsors!</p>
     </b-container>
 
-    <b-container>
-      <b-row>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
+    <b-container fluid >
+      <b-row class="logos" style="padding: 3vw 5vw 0 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/BUCS/BucsLogo.jpg"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Giphy/giphyEngineeringLogo.jpg"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/Github/githubLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/IBM/ibmLogo.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
       </b-row>
 
-      <b-row>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
-        <b-col></b-col>
+      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
+        <b-col><img class="logoThin" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/RedHat/redhatLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
         <b-col></b-col>
       </b-row>
 
@@ -341,7 +343,7 @@ import Live from "../components/Live.vue"
 }
 
 #links {
-  padding-top: 8vw;
+  padding-top: 7vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -375,5 +377,37 @@ width: 40%;
 margin-left: auto;
 margin-right: auto;
 }
+
+#redot{
+  border: 1px solid #f05352;
+  border-radius: 50px;
+  background-color: #f05352;
+  height: 0.75vw;
+  width: 0.75vw;
+  display: inline-block;
+
+}
+
+.logo {
+  width: 9vw;
+  height: auto;
+}
+
+.logoTall {
+  height: 5vw;
+  width:auto;
+}
+
+.logoThin {
+  width: 12vw;
+  height: auto;
+}
+
+.logos {
+  align-items:center;
+
+}
+
+
 
 </style>

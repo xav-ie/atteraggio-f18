@@ -1,13 +1,7 @@
 <template>
   <div class="Scheduler">
-    <b-container fluid>
-      <b-row align-h="end">
-        <div style="margin-top: -1.5vw; margin-right: 10vw;">
-          <div id="redot" style="margin-right: 1vh"></div><span style="font-size: 1.6vw; font-weight: 400;">Live</span>
-        </div>
-      </b-row>
-    </b-container>
-    <div class="schedule-block">
+    <Live />
+    <div class="schedule-block" style="margin-top:5%;">
       <div class="select-date">
         <div v-on:click="changeDate" class="date-tag" v-bind:class="[sat_day ? 'active-tag' : 'inactive-tag']">
           <span> Saturday </span>
@@ -20,138 +14,22 @@
       <Schedule v-else :events="sun_events" :timelines="timelines" />
     </div>
     <b-container fluid>
-      <b-row style="margin-top: 5%;">
-        <!-- <Flair /> -->
-        <b-row class="FlairRow">
-          <b-col>
-            <!-- orange ZigZag -->
-            <img
-              class = "Flair"
-              id = "OrangZigLeft"
-              src = "../assets/Shapes/ZigZag/CoralZigZag.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Green triangle -->
-            <img
-              class = "Flair"
-              id = "GreenTrig"
-              src = "../assets/Shapes/Triangle/GreenTriangle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Pink Grid -->
-            <img
-              class = "Flair"
-              id = "PinkGrid"
-              src = "../assets/Shapes/Grid/PinkSquareGrid.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Orange Zigzag -->
-            <img
-              class = "Flair"
-              id = "OrgZigRight"
-              src = "../assets/Shapes/ZigZag/CoralZigZag.svg"
-            />
-          </b-col>
-        </b-row>
-        <b-row class="FlairRow">
-          <b-col>
-            <!-- Blue grid -->
-            <img
-              class = "Flair"
-              id = "BlueCirGrid"
-              src = "../assets/Shapes/Grid/BlueCircleGrid.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Blue Circle -->
-            <img
-              class = "Flair"
-              id = "BlueCircle"
-              src = "../assets/Shapes/Circle/BlueThickCircle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Thin Orange Circle -->
-            <img
-              class = "Flair"
-              id = "OrgThinCircle"
-              src = "../assets/Shapes/Circle/CoralThinCircle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Thick Orange Circle -->
-            <img
-              class = "Flair"
-              id = "OrgThickCircle"
-              src = "../assets/Shapes/Circle/CoralThickCircle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Blue Square Grid -->
-            <img
-              class = "Flair"
-              id = "BlueSqGrid"
-              src = "../assets/Shapes/Grid/BlueSqGrid.svg"
-            />
-          </b-col>
-        </b-row>
-        <b-row class="FlairRow">
-          <b-col>
-            <!-- Green Circle -->
-            <img
-              class = "Flair"
-              id = "GreenCircle"
-              src = "../assets/Shapes/Circle/GreenThinCircle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Orange Grid -->
-            <img
-              class = "Flair"
-              id = "OrgGrid"
-              src = "../assets/Shapes/Grid/CoralCircleGrid.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Blue triangle -->
-            <img
-              class = "Flair"
-              id = "BlueTrig"
-              src = "../assets/Shapes/Triangle/BlueTriangle.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Green zigzag -->
-            <img
-              class = "Flair"
-              id = "GreenZig"
-              src = "../assets/Shapes/ZigZag/GreenZigZag.svg"
-            />
-          </b-col>
-          <b-col>
-            <!-- Red Circle -->
-            <img
-              class = "Flair"
-              id = "PinkCircle"
-              src = "../assets/Shapes/Circle/PinkThickCircle.svg"
-            />
-          </b-col>
-        </b-row>
-      </b-row>
+      <Flair />
     </b-container>
   </div>
 </template>
 
 <script>
   import Schedule from "./Schedule.vue"
+  import Live from "../components/Live.vue"
+  import Flair from "../components/Flair.vue"
 
   export default {
     name: "SchedulePage",
     components: {
-      Schedule
+      Schedule,
+      Live,
+      Flair
     },
     data() {
       return {
@@ -292,98 +170,5 @@
   .inactive-tag {
     color: white;
     background-color: #a7a1b8;
-  }
-
-  .Flair {
-    width: 100%;
-    height: auto;
-    display: flex;
-    overflow: visible;
-  }
-
-  .FlairRow {
-    width: 100%;
-  }
-
-  #OrangZigLeft {
-    max-width: 20%;
-    margin-left: -5%;
-  }
-
-  #GreenTrig {
-    max-width: 13%;
-    margin-top: 20%;
-    margin-left: 30%;
-  }
-
-  #PinkGrid {
-    max-width: 12%;
-    margin-left: 50%;
-    margin-top: 5%;
-  }
-
-  #OrgZigRight {
-    max-width: 20%;
-    transform: rotate(50deg);
-    margin-left: 70%;
-  }
-
-  #BlueCirGrid {
-    max-width: 25%;
-    margin-left: 35%;
-  }
-
-  #BlueCircle {
-    max-width: 12%;
-    margin-top: 40%;
-
-  }
-
-  #OrgThinCircle {
-    max-width: 15%;
-    margin-left: 30%;
-    margin-top: 13%;
-  }
-
-  #OrgThickCircle {
-    max-width: 13%;
-    margin-left: 50%;
-    margin-top: 22%;
-  }
-
-  #BlueSqGrid {
-    max-width: 15%;
-    transform: rotate(50deg);
-    margin-left: 50%;
-    margin-top: 30%;
-  }
-
-  #GreenCircle {
-    max-width: 14%;
-    margin-left: 20%;
-    margin-top: 10%;
-  }
-
-  #OrgGrid {
-    max-width: 30%;
-    margin-left: 70%;
-    margin-top: 15%;
-  }
-
-  #BlueTrig {
-    max-width: 15%;
-    margin-left: 100%;
-    margin-top: -5%
-  }
-
-  #GreenZig {
-    max-width: 30%;
-    margin-left: 100%;
-    transform: rotate(210deg);
-  }
-
-  #PinkCircle {
-    max-width: 12%;
-    margin-left: 97%;
   }
 </style>

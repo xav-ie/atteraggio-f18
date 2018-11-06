@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="navContain">
-      <b-navbar fixed="top" id="nav" >
+      <b-navbar fixed="top" id="nav">
 
             <div>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
@@ -32,6 +32,9 @@ body{
   width: 100%;
   height: 100%;
   background-color:#a73d59;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   background-image: linear-gradient(
     to bottom,
@@ -88,7 +91,7 @@ body{
   }
 }
 .routelink{
-  margin-right: 4vw;
+  margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
 }
