@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <div class="navContain">
-      <b-navbar fixed="top" id="nav">
+
+
+      <div class="navContain">
+        <b-navbar fixed="top" id="nav" class="">
 
             <div>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
@@ -63,14 +65,28 @@ body{
   }
 } */
 
+@media (max-width: 750px) {
+  .mobileHide {
+    display: none !important;
+  }
+  #nav {
+  }
+}
+@media (min-width: 751px) {
+  .desktopHide {
+    display: none !important;
+  }
+  #app {
+    padding-top: 9vw;
+  }
+}
+
 #app {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
-  font-size: 1.25vw;
-  padding-top: 9vw;
-
+  font-size: 1.25rem;
 }
 
 #nav {

@@ -1,10 +1,11 @@
 <template>
+
   <div>
 
     <Live/>
     <b-container fluid>
         <b-row class="homeHead">
-            <b-col>
+            <b-col class="mobileHide">
               <b-row>
                 <b-col>
                   <img
@@ -66,11 +67,11 @@
               </b-row>
             </b-col>
 
-            <b-col cols="5" id="heroText">
+            <b-col id="heroText" style="max-width: 100% !important;">
               <div >
                 <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
                 <img
-                  class="Flair"
+                  class="Flair mobileHide"
                   id="BlueCircle"
                   src="../assets/Shapes/Circle/BlueThickCircle.svg"
                 />
@@ -79,7 +80,7 @@
               </div>
             </b-col>
 
-            <b-col>
+            <b-col class="mobileHide">
               <b-row>
                 <b-col>
                   <img
@@ -144,9 +145,9 @@
         </b-row>
     </b-container>
 
-    <b-container id="links" >
-      <b-row id="links" class="links">
-        <b-col cols="auto" md="4">
+    <b-container id="links" class="container-fluid">
+      <b-row id="links" class="links container-fluid">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/wifi.svg"/>
           </div>
@@ -158,7 +159,7 @@
           </div>
         </b-col>
 
-        <b-col cols="auto" md="4">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/slack.svg"/>
           </div>
@@ -169,7 +170,7 @@
           </div>
         </b-col>
 
-        <b-col cols="auto" md="4">
+        <b-col sm="12" md="4">
           <div>
             <img class="icon" src="../assets/Icons/link.svg"/>
           </div>
@@ -316,15 +317,16 @@ import Live from "../components/Live.vue"
   color: white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 3.7vw;
+  font-size: 3rem;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .date{
   margin-top: -3vh;
-  line-height: 1.75vw;
   font-weight: 300;
   text-align: center;
+  max-width: 100% !important;
 }
 
 #bolder {
@@ -339,6 +341,10 @@ import Live from "../components/Live.vue"
 @media (max-width: 750px) {
   .homeHead {
     margin-top: -12vw;
+  }
+
+  .mobileHide {
+    display: none;
   }
 }
 
@@ -356,9 +362,10 @@ import Live from "../components/Live.vue"
 
 
 .icon {
-  height: 2vw;
-  width: 2vw;
+  height: 2rem;
+  width: 2rem;
   margin-bottom: 2vh;
+  margin-top: 50px;
 }
 
 .headInfo{
@@ -368,7 +375,7 @@ import Live from "../components/Live.vue"
 .info{
   margin-bottom: -0.2vw;
   font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
-  font-size: 1.1vw;
+  font-size: 1.2rem;
 }
 
 hr {
