@@ -10,19 +10,19 @@
       </b-row>
       <b-row id="infoRow">
         <b-col cols=1 />
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="category"> Track Title </p>
           <p class="prizeItem"> Prize </p>
           <p class="info"> Place holder text.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="category"> Track Title </p>
           <p class="prizeItem"> Prize </p>
           <p class="info">Place holder text.
           </p>
         </b-col>
-        <b-col>
+        <b-col sm="10" md="3">
           <p class="category"> Track Title </p>
           <p class="prizeItem">Prize</p>
           <p class="info"> Place holder text.
@@ -40,23 +40,35 @@
 .Prizes {
 }
 
+@media (max-width: 750px) {
+  .mobileHide {
+    display: none !important;
+  }
+}
+@media (min-width: 751px) {
+  .desktopHide {
+    display: none !important;
+  }
+}
+
+
 .category {
   margin-top: 4vh;
-  font-size: 1.3vw;
+  font-size: 1rem;
 }
 
 .info{
   font-weight: 300;
-  font-size: 1.1vw;
+  font-size: 1rem;
   margin-top: -2vh;
 }
 .prizeItem {
-  font-size: 1.25vw;
+  font-size: 1.2rem;
   margin-top: 3vh;
 }
 #header {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 #title{

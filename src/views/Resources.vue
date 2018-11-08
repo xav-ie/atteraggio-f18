@@ -48,10 +48,10 @@
         <b-row class="info">
           <b-col cols=1 />
           <b-col>
-            Javascript Basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics <br/>
-            Google Chrome DevTools: https://www.youtube.com/watch?v=x8u0n4dT-WI <br />
-            React Native with Redux: https://www.packtpub.com/books/content/how-get-started-redux-react-native <br />
-            React Native with Firebase: https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">Javascript Basics</a> <br/>
+            <a href="https://www.youtube.com/watch?v=x8u0n4dT-WI">Google Chrome DevTools</a> <br />
+            <a href="https://www.packtpub.com/books/content/how-get-started-redux-react-native">React Native with Redux</a> <br />
+            <a href="https://firebase.googleblog.com/2016/01/the-beginners-guide-to-react-native-and_84.html">React Native with Firebase</a>
           </b-col>
           <b-col cols=2 />
         </b-row>
@@ -65,9 +65,9 @@
         <b-row class="info">
           <b-col cols=1 />
           <b-col>
-            Scikit: scikit-learn.org <br />
-            Keras: https://keras.io <br />
-            Pytorch: http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html <br />
+            <a href="scikit-learn.org">Scikit</a> <br />
+            <a href="https://keras.io">Keras</a><br />
+            <a href="http://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">Pytorch</a> <br />
           </b-col>
           <b-col cols=2 />
         </b-row>
@@ -81,11 +81,11 @@
         <b-row class="info">
           <b-col cols=1 />
           <b-col>
-            Simmetri: http://simmetri.com/tutorials.html <br />
-            Simmetri Youtube Channel: https://www.youtube.com/channel/UCLhvQir_XFbmMnmODLFQqqA <br />
-            Unity: https://unity3d.com/learn <br/>
-            Unity and Android: https://docs.unity3d.com/Manual/android-GettingStarted.html <br/>
-            Unity and OpenVR (Vive and Oculus Rift): https://www.assetstore.unity3d.com/en/#!/content/32647 <br/>
+            <a href="http://simmetri.com/tutorials.html">Simmetri</a> <br />
+            <a href="https://www.youtube.com/channel/UCLhvQir_XFbmMnmODLFQqqA">Simmetri Youtube Channel</a> <br />
+            <a href="https://unity3d.com/learn ">Unity</a><br/>
+            <a href="https://docs.unity3d.com/Manual/android-GettingStarted.html ">Unity and Android</a><br/>
+            <a href="https://www.assetstore.unity3d.com/en/#!/content/32647">Unity and OpenVR (Vive and Oculus Rift)</a> <br/>
           </b-col>
           <b-col cols=2 />
         </b-row>
@@ -118,7 +118,7 @@
 #header {
   margin-top: 11vh;
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .sectionHeader {
@@ -134,8 +134,31 @@
 .info {
   margin-top: 2%;
   font-weight: 300;
-  font-size: 1.1vw;
+  font-size: 1rem;
 }
+
+
+/* unvisited link */
+a:link {
+    color: #2FB5E3;
+}
+
+/* visited link */
+a:visited {
+    color: #f05352;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f05352;
+}
+
+/* selected link */
+a:active {
+    color: #f05352;
+}
+
+
 </style>
 
 <script>

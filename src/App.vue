@@ -5,7 +5,7 @@
       <div class="navContain">
 
 
-        <b-navbar toggleable="md" variant="info" class="desktopHide" style="background-color: #6b6691 !important">
+        <b-navbar toggleable="md" type="dark" variant="info" class="desktopHide" style="background-color: #6b6691 !important">
 
           <b-navbar-toggle target="nav_collapse" style="background-color: #6b6691"></b-navbar-toggle>
 
