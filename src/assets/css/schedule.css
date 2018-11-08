@@ -1,19 +1,9 @@
-.codyhouse {
-  text-align: center;
-  margin: 40px 0;
-}
 /* reset css */
-/* https://meyerweb.com/eric/tools/css/reset/
+/* https://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-/* style css */
-/* --------------------------------
-
-Main Components
-
--------------------------------- */
 .cd-schedule {
   position: relative;
   margin: 2em 0;
@@ -88,7 +78,6 @@ Main Components
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-
   }
   .cd-schedule .timeline li:nth-of-type(2n+1) span {
     display: none;
@@ -572,3 +561,4 @@ Main Components
   opacity: 1;
   visibility: visible;
 }
+

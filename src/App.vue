@@ -30,7 +30,7 @@
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700');
 
-body{
+body {
   width: 100%;
   height: 100%;
   background-color:#a73d59;
@@ -95,26 +95,26 @@ body{
   height: 5vw;
 
   display: flex;
-  justify-content:flex-end;
-
+  justify-content: flex-end;
   a {
     font-weight: 400;
     font-size: 1.1vw;
     color: #ffffff;
     &.router-link-exact-active {
-      color: #928AA7;
+      color: #928aa7;
     }
   }
 }
+
+
 .routelink{
   margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
 }
-#BHacks{
+#BHacks {
   height: 11vw;
   width: 11vw;
   margin-right: 20vw;
-
 }
 </style>

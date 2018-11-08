@@ -1,5 +1,5 @@
 <template>
-  <div class="schedule">
+  <div class="schedule" v-bind:style="{height: (timelines.length + 1) * event_slot_height + 'px'}">
     <div class="cd-schedule"> <!-- if add loading, events won't be shown -->
       <div class="timeline">
         <ul>
@@ -12,44 +12,14 @@
       <div class="events">
         <ul>
           <!-- 3 categories -->
-          <li class="events-group">
-            <div class="top-info category-one"><span> Category 1 </span></div>
+          <li v-for="category in events" v-bind:key="category.id" class="events-group">
+            <div class="top-info" v-bind:class="[category.name == 'Category 1' ? 'category-one' : '']">
+              <span> {{category.name}} </span>
+            </div>
             <ul v-if="events.length">
               <Event
-                v-for="event in events[0]"
-                :start="event.start"
-                :end="event.end"
-                :type="event.type"
-                :full_name="event.full_name"
-                :timeline_start="timelines[0]"
-                :event_slot_height="event_slot_height"
-                :unit_duration="unit_duration"
-              />
-            </ul>
-
-          </li>
-
-          <li class="events-group">
-            <div class="top-info"><span>Category 2</span></div>
-            <ul>
-              <Event
-                v-for="event in events[1]"
-                :start="event.start"
-                :end="event.end"
-                :type="event.type"
-                :full_name="event.full_name"
-                :timeline_start="timelines[0]"
-                :event_slot_height="event_slot_height"
-                :unit_duration="unit_duration"
-              />
-            </ul>
-          </li>
-
-          <li class="events-group">
-            <div class="top-info"><span>Category 3</span></div>
-            <ul>
-              <Event
-                v-for="event in events[2]"
+                v-for="event in category.event_list"
+                :key="event.id"
                 :start="event.start"
                 :end="event.end"
                 :type="event.type"
@@ -62,7 +32,6 @@
           </li>
         </ul>
       </div>
-
     </div>
   </div>
 </template>
@@ -93,4 +62,10 @@
     }
   }
 </script>
+
 <style scoped src="../assets/css/schedule.css"></style>
+<style scoped>
+  ol, ul {
+    list-style: none;
+  }
+</style>
