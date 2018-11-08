@@ -3,7 +3,30 @@
 
 
       <div class="navContain">
-        <b-navbar fixed="top" id="nav" class="">
+
+
+        <b-navbar toggleable="md" variant="info" class="desktopHide" style="background-color: #6b6691 !important">
+
+          <b-navbar-toggle target="nav_collapse" style="background-color: #6b6691"></b-navbar-toggle>
+
+          <b-collapse is-nav id="nav_collapse" style="background-color: #6b6691">
+
+            <b-navbar-nav style="background-color: #6b6691; font-color:white;">
+              <b-nav-item><router-link class="routelink" to="/">Home</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/faq">FAQ</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/schedule">Schedule</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/map">Map</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/resources">Resources</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/workshops">Workshops</router-link></b-nav-item>
+              <b-nav-item><router-link class="routelink" to="/prizes">Prizes</router-link></b-nav-item>
+            </b-navbar-nav>
+
+          </b-collapse>
+        </b-navbar>
+
+
+
+        <b-navbar fixed="top" id="nav" class="mobileHide">
 
             <div>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
@@ -111,6 +134,10 @@ body {
   margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
+  color: white;
+}
+.routelink:visited{
+  color: white;
 }
 #BHacks {
   height: 11vw;
