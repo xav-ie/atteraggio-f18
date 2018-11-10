@@ -154,7 +154,7 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Wifi</span></p>
-            <p class="info"><span id="bolder">Network:</span> BU Event Guest</p>
+            <p class="info"><span id="bolder">Network:</span> Bostonhacks</p>
             <p class="info"><span id="bolder">Password:</span> Hackaway18</p>
           </div>
         </b-col>
@@ -207,12 +207,11 @@
         <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/RedHat/redhatLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
       </b-row>
 
       <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/Stratis/StratisLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Twilio/twilioBW.png"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/UniRobot/uniRobotsLogo.png"/></b-col>

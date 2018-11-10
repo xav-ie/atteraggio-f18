@@ -111,6 +111,11 @@ export default {
           title: "Intro to Git by Rudhra Raveendran (Github Student Ambassador)",
           time: "6:00pm - 7:00pm",
           room: "Terrace Lounge"
+        },
+        {
+          title: "Intro to Machine Vision by Lucas Watson (Software Intern at Piaggio Fast Forward)",
+          time: "6:00pm - 7:00pm",
+          room: "Room 312"
         }
       ],
     }
