@@ -3,7 +3,7 @@
     <Live />
     <b-container fluid>
       <b-row id="title">
-        <b-col cols=1 />
+        <b-col sm="1" md="1" />
         <b-col id="header" sm="10" md="10">
           <p> Frequently Asked Questions </p>
         </b-col>

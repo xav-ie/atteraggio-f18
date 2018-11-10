@@ -38,107 +38,144 @@ export default {
       timelines: [
         "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
         "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
-        "16:00", "16:30", "17:00", "17:30", "18:00"
+        "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "20:00",
+        "20:30", "21:00", "21:30", "22:00", "22:30", "23:00", "23:30", "24:00"
       ],
       sat_events: [ // three categories
         {
-          name: "Category 1",
+          name: "General",
           event_list:
           [
             {
-              start: "9:30",
+              start: "9:00",
               end: "10:30",
-              type: "event-1",
-              full_name: "First event"
+              type: "event-2",
+              full_name: "Check-in"
             },
             {
-              start: "11:30",
-              end: "12:30",
-              type: "event-1",
-              full_name: "Second event"
+              start: "11:00",
+              end: "12:00",
+              type: "event-2",
+              full_name: "Opening Ceremony"
             },
             {
-              start: "13:30",
-              end: "14:30",
-              type: "event-1",
-              full_name: "Second event"
+              start: "12:30",
+              end: "13:00",
+              type: "event-2",
+              full_name: "Lunch"
             },
             {
-              start: "15:30",
-              end: "16:30",
-              type: "event-1",
-              full_name: "Second event"
-            }
-          ],
+              start: "18:30",
+              end: "19:00",
+              type: "event-2",
+              full_name: "Dinner"
+            },
+            {
+              start: "21:00",
+              end: "24:00",
+              type: "event-2",
+              full_name: "Movies and Games"
+            },
+          ]
         },
         {
-          name: "Category 2",
+          name: "Flash Workshops",
           event_list:
           [
             {
-              start: "10:30",
-              end: "12:30",
-              type: "event-2",
-              full_name: "Third Event"
-            }
-          ],
-        },
-        {
-          name: "Category 3",
-          event_list:
-          [
+              start: "20:00",
+              end: "20:30",
+              type: "event-1",
+              full_name: "Starting Up Your Start-up"
+            },
             {
-              start: "10:30",
-              end: "12:30",
-              type: "event-2",
-              full_name: "Fourth Event"
+              start: "20:30",
+              end: "21:00",
+              type: "event-1",
+              full_name: "Working with Designers 101"
+            },
+            {
+              start: "21:00",
+              end: "21:30",
+              type: "event-1",
+              full_name: "No Such Thing as Black Magic"
+            },
+            {
+              start: "21:30",
+              end: "22:00",
+              type: "event-1",
+              full_name: "Skyrim Modding from a Skyrim Modder"
             }
           ]
-        }          
+        }
       ],
       sun_events:[
         {
-          name: "Category 1",
+          name: "General",
           event_list:
           [
             {
-              start: "10:30",
-              end: "12:30",
-              type: "event-1",
-              full_name: "First event"
+              start: "00:00",
+              end: "1:00",
+              type: "event-2",
+              full_name: "Midnight Snack"
             },
             {
-              start: "13:30",
-              end: "14:30",
+              start: "8:00",
+              end: "9:00",
+              type: "event-2",
+              full_name: "Breakfast"
+            },
+            {
+              start: "9:00",
+              end: "10:00",
+              type: "event-2",
+              full_name: "Submissions due (10AM)"
+            },
+            {
+              start: "11:00",
+              end: "12:00",
+              type: "event-2",
+              full_name: "Lunch"
+            },
+            {
+              start: "12:00",
+              end: "13:30",
+              type: "event-2",
+              full_name: "Judging"
+            },
+            {
+              start: "14:00",
+              end: "15:00",
+              type: "event-2",
+              full_name: "Closing Ceremony"
+            },
+          ],
+        },
+        {
+          name: "Side Events",
+          event_list:
+          [
+            {
+              start: "00:00",
+              end: "1:00",
               type: "event-1",
-              full_name: "Second event"
-            }
-          ],
-        },
-        {
-          name: "Category 2",
-          event_list:
-          [
+              full_name: "Pinata"
+            },
             {
-              start: "15:30",
-              end: "16:30",
-              type: "event-2",
-              full_name: "Third Event"
-            }
-          ],
-        },
-        {
-          name: "Category 3",
-          event_list:
-          [
+              start: "1:00",
+              end: "3:00",
+              type: "event-1",
+              full_name: "Movies and Games"
+            },
             {
-              start: "10:30",
-              end: "12:30",
-              type: "event-2",
-              full_name: "Fourth Event"
-            }
+              start: "8:00",
+              end: "9:00",
+              type: "event-1",
+              full_name: "Yoga"
+            },
           ]
-        }          
+        }
       ]
     }
   },

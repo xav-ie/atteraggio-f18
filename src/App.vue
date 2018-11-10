@@ -16,7 +16,7 @@
               <b-nav-item><router-link class="routelink" to="/faq">FAQ</router-link></b-nav-item>
               <b-nav-item><router-link class="routelink" to="/schedule">Schedule</router-link></b-nav-item>
               <b-nav-item><router-link class="routelink" to="/map">Map</router-link></b-nav-item>
-              <b-nav-item><router-link class="routelink" to="/resources">Resources</router-link></b-nav-item>
+              <!-- <b-nav-item><router-link class="routelink" to="/resources">Resources</router-link></b-nav-item> -->
               <b-nav-item><router-link class="routelink" to="/workshops">Workshops</router-link></b-nav-item>
               <b-nav-item><router-link class="routelink" to="/prizes">Prizes</router-link></b-nav-item>
             </b-navbar-nav>
@@ -37,7 +37,7 @@
               <router-link class="routelink" to="/faq">FAQ</router-link>
               <router-link class="routelink" to="/schedule">Schedule</router-link>
               <router-link class="routelink" to="/map">Map</router-link>
-              <router-link class="routelink" to="/resources">Resources</router-link>
+              <!-- <router-link class="routelink" to="/resources">Resources</router-link> -->
               <router-link class="routelink" to="/workshops">Workshops</router-link>
               <router-link class="routelink" to="/prizes">Prizes</router-link>
             </div>

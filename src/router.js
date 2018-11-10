@@ -23,11 +23,11 @@ export default new Router({
       name: "Map",
       component: () => import("./views/Map.vue")
     },
-    {
-      path: "/resources",
-      name: "Resources",
-      component: () => import("./views/Resources.vue")
-    },
+    // {
+    //   path: "/resources",
+    //   name: "Resources",
+    //   component: () => import("./views/Resources.vue")
+    // },
     {
       path: "/schedule",
       name: "SchedulePage",

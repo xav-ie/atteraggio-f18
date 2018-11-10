@@ -9,26 +9,70 @@
         </b-col>
       </b-row>
       <b-row id="infoRow">
-        <b-col cols=1 />
+        <b-col md="1" />
+        <b-col sm="10" md="4" style="border-bottom: 1px solid grey; padding-bottom: 1vh; margin-bottom: 1vh;">
+          <p class="category">Best Overall Hack </p>
+          <p class="prizeItem"> Nintendo Switches</p>
+          <p class="info">
+            For the best overall hack made during the event!
+          </p>
+        </b-col>
+        <b-col md="2" />
+      </b-row>
+      <b-row>
+        <b-col md="1" />
         <b-col sm="10" md="3">
-          <p class="category"> Track Title </p>
-          <p class="prizeItem"> Prize </p>
-          <p class="info"> Place holder text.
+          <p class="category"> Giving Back to Veterans Track </p>
+          <p class="prizeItem"> Amazon Echo Sports </p>
+          <p class="info"> Veterans risked their lives to let you sit in the
+            comfort of your home, or at BostonHacks, and code. It’s time to give
+            back and create solutions for problems countless veterans face every
+            day.
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Track Title </p>
-          <p class="prizeItem"> Prize </p>
-          <p class="info">Place holder text.
+          <p class="category"> The Smart Home Track</p>
+          <p class="prizeItem"> Google Home Hub and 2 Lights Starter Pack </p>
+          <p class="info">Learn how to create Internet of Things devices and
+            robots to realize the dream of the smart home. Get your hands on
+            state-of-the-art hardware and study the intimate interaction of
+            humans and technology.
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Track Title </p>
-          <p class="prizeItem">Prize</p>
-          <p class="info"> Place holder text.
+          <p class="category"> Data for Urban Good Track</p>
+          <p class="prizeItem">Surface Go Tablets, Typecovers, and Surface Pens</p>
+          <p class="info">
+            To the team/project that best addreses one or more of the following
+            StreetCaster Projects.
+            <br />
+            For more information visit:
+              <a href="https://tinyurl.com/BostonStreetCaster">
+                Boston Street Caster
+              </a>
+            <br />
+            <b>Challenge 1:</b> Automate Boston’s Ground Truth Sidewalk Data <br />
+            <b>Challenge 2:</b> Street Quality Indicators <br />
+            <b>Challenge 3:</b> Park Quality Indicators <br />
           </p>
         </b-col>
-        <b-col cols=1 />
+      </b-row>
+      <b-row>
+        <b-col sm="1" />
+        <b-col sm="10" md="4" style="border-top: 1px solid grey;">
+          <p class="category"> Spark! Fellowship Award </p>
+          <p class="prizeItem"> Spark! Fellowship</p>
+          <p class="info">
+            Winning idea will be awarded a Spark! Fellowship to continue work on
+            their project through a semester-long spark! fellowship.
+            Participants must be enrolled in Boston University and able to
+            attend workshops on Mondays from 3:30-6:30pm (through and a design
+            sprint February 9th and 10th 11-5pm. For more information:
+            <a href="http://www.bu.edu/spark/students/spark-programs/#innovation-fellows">
+              Spark Fellowship
+            </a>
+          </p>
+        </b-col>
       </b-row>
 
       <Flair />
@@ -51,16 +95,21 @@
   }
 }
 
+a {
+  color: #ffffff;
+  font-weight: 700;
+}
 
 .category {
   margin-top: 4vh;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .info{
   font-weight: 300;
   font-size: 1rem;
-  margin-top: -2vh;
+  margin-top: -1vh;
 }
 .prizeItem {
   font-size: 1.2rem;
@@ -68,7 +117,7 @@
 }
 #header {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #title{
