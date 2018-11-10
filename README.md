@@ -4,7 +4,7 @@
 ## Setup
 
 Check that you have recent versions of node and yarn. You can install yarn with
-npm (that comes with installtion of node).
+npm (that comes with the installtion of node).
 
 To install the necessary dependencies, run:
 ```
