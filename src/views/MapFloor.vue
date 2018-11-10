@@ -13,7 +13,7 @@
             </div>
           </b-row>
           <b-row class="items">
-            <b-col lg="5" md="12">
+            <b-col cols="5">
               <MapItem
                 v-for="item in itemList"
                 v-bind:key="item.id"
@@ -115,11 +115,11 @@ span {
 }
 
 .items {
-  margin-top: 45px;
+  margin-top: 5vw;
 }
 
 .elevator {
-  height: 75px;
+  height: 9vw;
 }
 
 .restroom div {
@@ -129,8 +129,9 @@ span {
 .restroom-icon {
   vertical-align: top;
 
-  width: 30px;
-  height: 30px;
+  width: 2.3vw;
+  height: 2.3vw;
+  font-size: 1.3vw;
   
   /* make it round */
   border-radius: 50%;
@@ -139,11 +140,24 @@ span {
   color: white;
 
   text-align: center;
-  line-height: 30px;
+  line-height: 2.3vw;
+}
+
+@media only screen and (max-width: 990px) {
+  .restroom-icon {
+    font-size: 2.3vw;
+    width: 3.3vw;
+    height: 3.3vw;
+    line-height: 3.3vw;
+  }
 }
 
 .restroom-info {
-  margin-left: 10px;
+  margin-left: 1vw;
+}
+
+.col {
+  padding-left: 1.3vw;
 }
 
 .bold {

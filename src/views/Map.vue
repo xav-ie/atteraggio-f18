@@ -2,16 +2,20 @@
   <div class="map">
     <div class="select-floor">
       <div v-on:click="changeFloor(0)" class="floor-tag" v-bind:class="[current_floor == 0 ? 'active-tag' : 'inactive-tag']">
-        <span> Basement </span>
+        <span class="big-scr-floor"> Basement </span>
+        <span class="small-scr-floor"> 0 </span>
       </div>
       <div v-on:click="changeFloor(1)" class="floor-tag" v-bind:class="[current_floor == 1 ? 'active-tag' : 'inactive-tag']">
-        <span> Floor 1 </span>
+        <span class="big-scr-floor"> Floor 1 </span>
+        <span class="small-scr-floor"> 1 </span>
       </div>
       <div v-on:click="changeFloor(2)" class="floor-tag" v-bind:class="[current_floor == 2 ? 'active-tag' : 'inactive-tag']">
-        <span> Floor 2 </span>
+        <span class="big-scr-floor"> Floor 2 </span>
+        <span class="small-scr-floor"> 2 </span>
       </div>
       <div v-on:click="changeFloor(3)" class="floor-tag" v-bind:class="[current_floor == 3 ? 'active-tag' : 'inactive-tag']">
-        <span> Floor 3 </span>
+        <span class="big-scr-floor"> Floor 3 </span>
+        <span class="small-scr-floor"> 3 </span>
       </div>
     </div>
     <div class="map-body">
@@ -131,22 +135,40 @@
   margin-bottom: 7vh;
   margin-top: 4vh;
   background-color: white;
+  font-size: 1.3vw;
+}
+
+.small-scr-floor {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .map {
+    font-size: 2.3vw;
+  }
+
+  .big-scr-floor {
+    display: none;
+  }
+
+  .small-scr-floor {
+    display: initial;
+  }
 }
 
 .select-floor {
   position: relative;
   background-color: #928aa6;
-  height: 80px;
-  padding-left: 20px;
-  
+  height: 8vw;
+  padding-left: 2vw;  
 }
 
 .floor-tag {
   position: relative;
-  top: calc(100% - 60px);
-  margin-left: 10px;
-  width: 200px;
-  height: 60px;
+  top: calc(100% - 4.5vw);
+  margin-left: 0.8vw;
+  width: 14vw;
+  height: 4.5vw;
   display: inline-block;
 }
 
@@ -173,8 +195,9 @@
 }
 
 .map-body {
-  margin-top: 60px;
-  padding: 30px 80px;
+  margin-top: 4.5vw;
+  padding: 3vw 4vw  ;
   border-top: 1px solid #b8b8b8;
 }
+
 </style>

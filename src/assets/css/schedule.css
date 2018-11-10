@@ -151,11 +151,10 @@
   padding: .8em;
 }
 
-@media only screen and (min-width: 550px) {
-  .cd-schedule .events .single-event {
-    width: 40%;
-  }
+.cd-schedule .events .single-event {
+  width: 40%;
 }
+
 
 @media only screen and (min-width: 800px) {
   .cd-schedule .events {

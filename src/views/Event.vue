@@ -77,17 +77,17 @@
   }
 
   .cd-schedule .event-name {
-    font-size: 1em;
+    font-size: 2.2vw;
   }
 
-  @media only screen and (min-width: 800px) {
-    .cd-schedule .event-name {
-      font-size: 1.5em;
+  @media only screen and (max-width: 800px) {
+    .single-event {
+      height: 10vw !important;
     }
   }
 
   .cd-schedule .event-date {
-    font-size: 1em;
+    font-size: 1.5vw;
     opacity: .7;
     line-height: 1.2;
     margin-bottom: .2em;
@@ -98,6 +98,17 @@
     text-decoration: none;
     display: block;
     height: 100%;
-    padding: 1em;
+    padding: 3vw;
   }
+
+  @media only screen and (min-width: 800px) {
+    .event-name {
+      font-size: 1.5vw;
+    }
+
+    a {
+      padding: 1em;
+    }
+  }
+
 </style>

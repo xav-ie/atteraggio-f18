@@ -34,8 +34,7 @@ export default {
 <style scoped>
 .map-item {
   background-color: white;
-  height: 75px;
-  width: 200px;
+  margin-bottom: 2vw;
   color: black;
 }
 
@@ -49,8 +48,9 @@ span {
 
 .numbering {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 2.3vw;
+  height: 2.3vw;
+  font-size: 1.3vw;
   
   /* make it round */
   border-radius: 50%;
@@ -62,7 +62,16 @@ span {
 
   /* vertically and horizontally align */
   text-align: center;
-  line-height: 30px;
+  line-height: 2.3vw;
+}
+
+@media only screen and (max-width: 990px) {
+  .numbering {
+    font-size: 2.3vw;
+    width: 3.3vw;
+    height: 3.3vw;
+    line-height: 3.3vw;
+  }
 }
 
 .no-padding {
