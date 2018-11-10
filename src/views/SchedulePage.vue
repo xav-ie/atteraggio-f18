@@ -65,6 +65,13 @@ export default {
               full_name: "Opening Ceremony"
             },
             {
+              location: "Terrance Lounge",
+              start: "12:00",
+              end: "13:00",
+              type: "event-2",
+              full_name: "Team formation"
+            },
+            {
               locattion: "Room 310",
               start: "14:00",
               end: "15:00",
