@@ -79,7 +79,7 @@
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .cd-schedule .timeline li:nth-of-type(2n+1) span {
+  .cd-schedule .timeline li:nth-of-type(2n) span {
     display: none;
   }
 }
@@ -162,7 +162,7 @@
     width: 100%;
   }
   .cd-schedule .events .events-group {
-    width: 33%; /* number of columns */
+    width: 50%; /* number of columns */
     float: left;
     /* border: 1px solid #EAEAEA; */
     /* reset style */

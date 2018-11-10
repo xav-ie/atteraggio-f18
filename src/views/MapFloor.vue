@@ -167,4 +167,8 @@ span {
 .explain-text {
   margin-top: 10px;
 }
+
+.elevator {
+  padding-left: 5px;
+}
 </style>

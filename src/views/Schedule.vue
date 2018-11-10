@@ -13,13 +13,14 @@
         <ul>
           <!-- 3 categories -->
           <li v-for="category in events" v-bind:key="category.id" class="events-group">
-            <div class="top-info" v-bind:class="[category.name == 'Category 1' ? 'category-one' : '']">
+            <div class="top-info" v-bind:class="[category.name == 'General' ? 'category-one' : '']">
               <span> {{category.name}} </span>
             </div>
             <ul v-if="events.length">
               <Event
                 v-for="event in category.event_list"
                 :key="event.id"
+                :location="event.location"
                 :start="event.start"
                 :end="event.end"
                 :type="event.type"

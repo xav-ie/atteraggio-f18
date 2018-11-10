@@ -1,7 +1,7 @@
 <template>
   <li class="single-event" v-bind:data-event="type" v-bind:style="{ top: eventTop + 'px', height: eventHeight + 'px' }"> <!-- might remove some of these later -->
     <a href="#0">
-      <span class="event-date"> {{start}}-{{end}} </span>
+      <span class="event-date"> {{start}}-{{end}} <span v-if="location">| {{location}}</span> </span>
       <span class="event-name">{{ full_name }}</span>
     </a>
   </li>
@@ -18,6 +18,10 @@
 
   export default {
     props: {
+      location: {
+        type: String,
+        required: false
+      },
       start: {
         type: String,
         required: true
@@ -77,7 +81,7 @@
   }
 
   .cd-schedule .event-name {
-    font-size: 2.2vw;
+    font-size: 1.7vw;
   }
 
   @media only screen and (max-width: 800px) {
@@ -98,7 +102,7 @@
     text-decoration: none;
     display: block;
     height: 100%;
-    padding: 3vw;
+    padding: 2vw;
   }
 
   @media only screen and (min-width: 800px) {
@@ -107,7 +111,15 @@
     }
 
     a {
-      padding: 1em;
+      padding: 0.4em;
+    }
+
+    .event-date {
+      font-size: 11px !important;
+    }
+
+    .event-name {
+      font-size: 17px !important;
     }
   }
 

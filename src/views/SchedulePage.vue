@@ -10,8 +10,8 @@
           <span> Sunday </span>
         </div>
       </div>
-      <Schedule v-if="sat_day" :events="sat_events" :timelines="timelines" />
-      <Schedule v-else :events="sun_events" :timelines="timelines" />
+      <Schedule v-if="sat_day" :events="sat_events" :timelines="sat_timeline" />
+      <Schedule v-else :events="sun_events" :timelines="sun_timeline" />
     </div>
     <b-container fluid>
       <Flair />
@@ -35,11 +35,16 @@ export default {
     return {
       animating: false,
       sat_day: true,
-      timelines: [
-        "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
+      sat_timeline: [
+        "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
         "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
-        "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "20:00",
+        "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00",
         "20:30", "21:00", "21:30", "22:00", "22:30", "23:00", "23:30", "24:00"
+      ],
+      sun_timeline: [
+        "0:00", "0:30", "1:00", "1:30", "2:00", "2:30", "3:00", "3:30", "4:00", "4:30", "5:00", "5:30",
+        "6:00", "6:30", "7:00", "7:30", "8:00", "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
+        "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"
       ],
       sat_events: [ // three categories
         {
@@ -47,6 +52,7 @@ export default {
           event_list:
           [
             {
+              location: "Metcalf Ballroom",
               start: "9:00",
               end: "10:30",
               type: "event-2",
@@ -59,6 +65,7 @@ export default {
               full_name: "Opening Ceremony"
             },
             {
+              location: "BU Academy Room",
               start: "12:30",
               end: "13:00",
               type: "event-2",
@@ -71,6 +78,7 @@ export default {
               full_name: "Dinner"
             },
             {
+              location: "Conference Auditorium and Terrace Lounge",
               start: "21:00",
               end: "24:00",
               type: "event-2",
@@ -83,26 +91,30 @@ export default {
           event_list:
           [
             {
+              location: "GSU 310",
               start: "20:00",
               end: "20:30",
               type: "event-1",
               full_name: "Starting Up Your Start-up"
             },
             {
+              location: "GSU 310",
               start: "20:30",
               end: "21:00",
               type: "event-1",
               full_name: "Working with Designers 101"
             },
             {
+              location: "GSU 310",
               start: "21:00",
               end: "21:30",
               type: "event-1",
               full_name: "No Such Thing as Black Magic"
             },
             {
+              location: "GSU 310",
               start: "21:30",
-              end: "22:00",
+              end: "22:30",
               type: "event-1",
               full_name: "Skyrim Modding from a Skyrim Modder"
             }
@@ -115,6 +127,7 @@ export default {
           event_list:
           [
             {
+              location: "BU Academy Room",
               start: "00:00",
               end: "1:00",
               type: "event-2",
@@ -133,6 +146,7 @@ export default {
               full_name: "Submissions due (10AM)"
             },
             {
+              location: "BU Academy Room",
               start: "11:00",
               end: "12:00",
               type: "event-2",
@@ -157,12 +171,14 @@ export default {
           event_list:
           [
             {
+              location: "Second Floor Metcalf",
               start: "00:00",
               end: "1:00",
               type: "event-1",
               full_name: "Pinata"
             },
             {
+              location: "Conference Auditorium and Terrace Lounge",
               start: "1:00",
               end: "3:00",
               type: "event-1",
