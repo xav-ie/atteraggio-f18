@@ -184,6 +184,19 @@
             <p class="info">and prize info</p>
           </div>
         </b-col>
+
+        <b-col sm="12" md="3">
+          <div>
+            <img class="icon" src="../assets/Icons/wifi.svg"/>
+          </div>
+          <div>
+              <p class="headInfo"><span id="bolder">HelpQ</span></p>
+              <p class="info"> <a href="https://helpq.bostonhacks.io"> Click here </a>
+                to get help
+              </p>
+          </div>
+        </b-col>
+        
       </b-row>
     </b-container>
 
