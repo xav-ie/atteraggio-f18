@@ -38,5 +38,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               ssh -o StrictHostKeyChecking=no circleci@${BOSTONHACKS_IP_ADDR} 'rm -rf /home/quillluser/atteraggio-f18/dist'
-              scp -o StrictHostKeyChecking=no -r ~/beta/build circleci@${BOSTONHACKS_IP_ADDR}:/home/quillluser/atteraggio-f18
+              scp -o StrictHostKeyChecking=no -r ~/atteraggio-f18/dist circleci@${BOSTONHACKS_IP_ADDR}:/home/quillluser/atteraggio-f18
             fi
