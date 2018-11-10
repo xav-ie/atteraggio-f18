@@ -166,7 +166,7 @@
           <div>
             <p class="headInfo"><span id="bolder">Slack</span></p>
             <p class="info">
-              <a href=""> Click here  </a>
+              <a href="https://join.slack.com/t/bostonhacksfall18/shared_invite/enQtNDc0MzEzMjc0NTEzLWZkMmQ4ZTUyMzg1MmQzNzFiZmI0OTJiOWVjNTI5Yjg5MDY0YTFkMDcyNjQyNGExNzYyYzVjODNlMzk5ZDg1ZWE"> Click here  </a>
               to join our Slack channel!</p>
           </div>
         </b-col>

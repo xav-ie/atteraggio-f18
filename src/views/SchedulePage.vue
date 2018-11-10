@@ -72,6 +72,13 @@ export default {
               full_name: "Team formation"
             },
             {
+              location: "Conference Auditorium",
+              start: "13:00",
+              end: "14:00",
+              type: "event-2",
+              full_name: "Stakeholder Talks"
+            },
+            {
               locattion: "Room 310",
               start: "14:00",
               end: "15:00",
@@ -79,7 +86,7 @@ export default {
               full_name: "Women in Tech Meetup"
             },
             {
-              location: "BU Academy Room",
+              location: "Hacking Area",
               start: "12:30",
               end: "13:00",
               type: "event-2",
