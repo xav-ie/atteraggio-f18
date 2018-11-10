@@ -28,8 +28,7 @@
 
 
 <style scoped>
-
-#title{
+#title {
   margin-top: 10vh;
   font-weight: 300;
   font-size: 3rem;
@@ -38,9 +37,9 @@
 </style>
 
 <script>
-import Card from "../components/Card.vue"
-import Live from "../components/Live.vue"
-import Flair from "../components/Flair.vue"
+import Card from "../components/Card.vue";
+import Live from "../components/Live.vue";
+import Flair from "../components/Flair.vue";
 
 export default {
   name: "Workshops",
@@ -49,31 +48,35 @@ export default {
     Live,
     Flair
   },
-  data () {
+  data() {
     return {
       cards: [
         {
           title: "Native Smart-Contracts on Bitcoin by Stratis",
           time: "2:00pm - 3:00pm",
-          room: "Conference Auditorium",
+          room: "Conference Auditorium"
         },
         {
-          title: "Intro to Programming for the Robot Operating System (ROS) by Lucas Watson (Software Intern at Piaggio Fast Forward)",
+          title:
+            "Intro to Programming for the Robot Operating System (ROS) by Lucas Watson (Software Intern at Piaggio Fast Forward)",
           time: "2:00pm - 3:00pm",
           room: "Terrace Lounge"
         },
         {
-          title: "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers by Bose",
+          title:
+            "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers by Bose",
           time: "3:00pm - 4:00pm",
           room: "Conference Auditorium"
         },
         {
-          title: "Intro to the UR Robot Arm by Mass Robotics and Universal Robot",
+          title:
+            "Intro to the UR Robot Arm by Mass Robotics and Universal Robot",
           time: "3:00pm - 4:00pm",
           room: "Terrace Lounge"
         },
         {
-          title: "Intro to Web Development with React by Christopher Trinh (BU student developer)",
+          title:
+            "Intro to Web Development with React by Christopher Trinh (BU student developer)",
           time: "3:00pm - 4:00pm",
           room: "Room 312"
         },
@@ -83,7 +86,8 @@ export default {
           room: "Conference Auditorium"
         },
         {
-          title: "Intro to Backend Development with Node.js and Express by Open Web",
+          title:
+            "Intro to Backend Development with Node.js and Express by Open Web",
           time: "4:00pm - 5:00pm",
           room: "Terrace Lounge"
         },
@@ -103,22 +107,25 @@ export default {
           room: "Terrace Lounge"
         },
         {
-          title: "Intro to Google Cloud Platform by Julia Bighetto (GCP Student Ambassador)",
+          title:
+            "Intro to Google Cloud Platform by Julia Bighetto (GCP Student Ambassador)",
           time: "5:00pm - 6:00pm",
           room: "Room 312"
         },
         {
-          title: "Intro to Git by Rudhra Raveendran (Github Student Ambassador)",
+          title:
+            "Intro to Git by Rudhra Raveendran (Github Student Ambassador)",
           time: "6:00pm - 7:00pm",
           room: "Terrace Lounge"
         },
         {
-          title: "Intro to Machine Vision by Lucas Watson (Software Intern at Piaggio Fast Forward)",
+          title:
+            "Intro to Machine Vision by Carlos Asmat (Piaggio Fast Forward)",
           time: "6:00pm - 7:00pm",
           room: "Room 312"
         }
-      ],
-    }
+      ]
+    };
   }
-}
+};
 </script>
