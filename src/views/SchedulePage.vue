@@ -103,7 +103,7 @@ export default {
               start: "22:00",
               end: "24:00",
               type: "event-2",
-              full_name: "Movies and Games"
+              full_name: "Movies"
             },
           ]
         },
@@ -196,7 +196,7 @@ export default {
               start: "1:00",
               end: "4:00",
               type: "event-1",
-              full_name: "Movies and Games"
+              full_name: "Movies"
             },
             {
               start: "8:00",
