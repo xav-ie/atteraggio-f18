@@ -123,19 +123,12 @@ export default {
               start: "20:30",
               end: "21:00",
               type: "event-1",
-              full_name: "Working with Designers 101"
-            },
-            {
-              location: "GSU 310",
-              start: "21:00",
-              end: "21:30",
-              type: "event-1",
               full_name: "No Such Thing as Black Magic"
             },
             {
               location: "GSU 310",
-              start: "21:30",
-              end: "22:30",
+              start: "21:00",
+              end: "22:15",
               type: "event-1",
               full_name: "Skyrim Modding from a Skyrim Modder"
             }
