@@ -28,7 +28,7 @@
 
         <b-navbar fixed="top" id="nav" class="mobileHide">
 
-            <div>
+            <div style=loat:left;>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
             </div>
 
@@ -92,8 +92,6 @@ body {
   .mobileHide {
     display: none !important;
   }
-  #nav {
-  }
 }
 @media (min-width: 751px) {
   .desktopHide {
@@ -118,7 +116,7 @@ body {
   height: 5vw;
 
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   a {
     font-weight: 400;
     font-size: 1.1vw;
@@ -140,8 +138,9 @@ body {
   color: white;
 }
 #BHacks {
-  height: 11vw;
-  width: 11vw;
-  margin-right: 20vw;
+  height: auto;
+  width: 170px;
+  
+  margin-left: 10%;
 }
 </style>
