@@ -69,13 +69,13 @@
 
             <b-col id="heroText" style="max-width: 100% !important;">
               <div >
-                <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
+                <p class="heroText"> Boston<span id="bolder">Hacks</span> 2019 </p>
                 <img
                   class="Flair mobileHide"
                   id="BlueCircle"
                   src="../assets/Shapes/Circle/BlueThickCircle.svg"
                 />
-                <p class="date">November 10 &#8211; November 11, 2018<br>
+                <p class="date">November 16 &#8211; November 17, 2019<br>
                 775 Commonwealth Avenue, Boston University</p>
               </div>
             </b-col>
@@ -154,8 +154,7 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Wifi</span></p>
-            <p class="info"><span id="bolder">Network:</span> Bostonhacks</p>
-            <p class="info"><span id="bolder">Password:</span> Hackaway18</p>
+            <p class="info">Coming Soon!</p>
           </div>
         </b-col>
 
@@ -166,7 +165,7 @@
           <div>
             <p class="headInfo"><span id="bolder">Slack</span></p>
             <p class="info">
-              <a href="https://join.slack.com/t/bostonhacksfall18/shared_invite/enQtNDc0MzEzMjc0NTEzLWZkMmQ4ZTUyMzg1MmQzNzFiZmI0OTJiOWVjNTI5Yjg5MDY0YTFkMDcyNjQyNGExNzYyYzVjODNlMzk5ZDg1ZWE"> Click here  </a>
+              <a href="https://join.slack.com/t/bostonhacks2019/shared_invite/enQtODEyNTMxMjAxMjY5LWQzNWE5YzU3ZGQ0ZGM4N2FiMTMxNjc0OTA0ODViMzQyYmRjZmU3OGNmYTgzNThhYzcxOTU1YjYwYzQzNzYyODk"> Click here  </a>
               to join our Slack channel!</p>
           </div>
         </b-col>
@@ -178,25 +177,10 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Devpost</span></p>
-            <p class="info">
-              <a href="https://bostonhacks-f2018.devpost.com/"> Click here  </a>
-                for project submission</p>
-            <p class="info">and prize info</p>
+            <p class="info">Coming Soon!</p>
           </div>
         </b-col>
 
-        <b-col sm="12" md="3">
-          <div>
-            <img class="icon" src="../assets/Icons/wifi.svg"/>
-          </div>
-          <div>
-              <p class="headInfo"><span id="bolder">HelpQ</span></p>
-              <p class="info"> <a href="https://helpq.bostonhacks.io"> Click here </a>
-                to get help
-              </p>
-          </div>
-        </b-col>
-        
       </b-row>
     </b-container>
 
@@ -208,28 +192,19 @@
     <b-container fluid >
       <b-row class="logos" style="padding: 3vw 5vw 0 5vw;">
         <b-col><img class="logoThin" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/BUCS/BucsLogo.jpg"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Giphy/giphyEngineeringLogo.jpg"/></b-col>
-        <b-col><img class="logoTall" src="../assets/Logos/Github/githubLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/IBM/ibmLogo.png"/></b-col>
-        <b-col><img class="logoTall" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/astra.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/CapOne.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/GCloud.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/jh.png"/></b-col>
       </b-row>
 
       <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img class="logoThin" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
-        <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/stringandloop_Logo_Black.png"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
-      </b-row>
-
-      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img class="logoThin" src="../assets/Logos/Stratis/StratisLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/stickerMule.svg"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/kind.svg"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Twilio/twilioBW.png"/></b-col>
-        <b-col><img class="logoThin" src="../assets/Logos/UniRobot/uniRobotsLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Unity/unityWhiteLogo.png"/></b-col>
-        <!-- <b-col></b-col> -->
+        <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
       </b-row>
 
     </b-container>
@@ -245,7 +220,7 @@ export default {
     Live
   }
 };
-import Live from "../components/Live.vue"
+import Live from "../components/Live.vue";
 </script>
 
 <style scoped lang="scss">
@@ -253,7 +228,6 @@ a {
   color: #ffffff;
   font-weight: 700;
 }
-
 
 .Flair {
   display: flex;
@@ -288,7 +262,7 @@ a {
   margin-left: -70%;
 }
 
-#GreenThinCircle{
+#GreenThinCircle {
   max-width: 38%;
   margin-left: -80%;
   margin-top: 50%;
@@ -350,7 +324,7 @@ a {
   padding-bottom: 40px;
 }
 
-.date{
+.date {
   margin-top: -3vh;
   font-weight: 300;
   text-align: center;
@@ -362,7 +336,7 @@ a {
   text-align: center;
 }
 
-.homeHead{
+.homeHead {
   padding-top: 14vh;
 }
 
@@ -382,12 +356,11 @@ a {
   margin-right: auto;
 }
 
-.links{
+.links {
   width: 90%;
   margin: 0;
   text-align: start;
 }
-
 
 .icon {
   height: 2rem;
@@ -396,31 +369,30 @@ a {
   margin-top: 50px;
 }
 
-.headInfo{
+.headInfo {
   margin-bottom: 0.1vw;
 }
 
-.info{
+.info {
   margin-bottom: -0.2vw;
-  font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+  font-family: "Roboto Slab", "Times New Roman", Times, serif;
   font-size: 1.2rem;
 }
 
 hr {
-background-color: #ffffff;
-width: 40%;
-margin-left: auto;
-margin-right: auto;
+  background-color: #ffffff;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#redot{
+#redot {
   border: 1px solid #f05352;
   border-radius: 50px;
   background-color: #f05352;
   height: 0.75vw;
   width: 0.75vw;
   display: inline-block;
-
 }
 
 .logo {
@@ -430,7 +402,7 @@ margin-right: auto;
 
 .logoTall {
   height: 5vw;
-  width:auto;
+  width: auto;
 }
 
 .logoThin {
@@ -439,10 +411,6 @@ margin-right: auto;
 }
 
 .logos {
-  align-items:center;
-
+  align-items: center;
 }
-
-
-
 </style>
