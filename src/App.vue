@@ -51,12 +51,12 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,400,700");
 
 body {
   width: 100%;
   height: 100%;
-  background-color:#a73d59;
+  background-color: #a73d59;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -77,7 +77,7 @@ body {
     hsl(340.57, 45.6%, 41.33%) 78.2%,
     hsl(346.8, 46.99%, 46.33%) 83.5%,
     hsl(351.93, 51.26%, 51.62%) 90.7%,
-    hsl(356.26, 65.21%, 57.16%) 99.1%,
+    hsl(356.26, 65.21%, 57.16%) 99.1%
   );
 }
 
@@ -127,14 +127,13 @@ body {
   }
 }
 
-
-.routelink{
+.routelink {
   margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
   color: white;
 }
-.routelink:visited{
+.routelink:visited {
   color: white;
 }
 #BHacks {

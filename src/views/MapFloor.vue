@@ -23,11 +23,6 @@
               />
             </b-col>
             <b-col>
-              <b-row class="elevator">
-                <b-col>
-                  Elevator
-                </b-col>
-              </b-row>
               <b-row class="restroom" v-if="restrooms">
                 <b-col cols="1">
                   <div class="restroom-icon">
@@ -58,7 +53,7 @@
 </template>
 
 <script>
-import MapItem from "./MapItem"
+import MapItem from "./MapItem";
 
 export default {
   name: "MapFloor",
@@ -92,11 +87,11 @@ export default {
       } else if (this.number == 2) {
         return "Second Floor";
       } else if (this.number == 3) {
-        return "Third Floor"
+        return "Third Floor";
       }
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -132,7 +127,7 @@ span {
   width: 2.3vw;
   height: 2.3vw;
   font-size: 1.3vw;
-  
+
   /* make it round */
   border-radius: 50%;
 
