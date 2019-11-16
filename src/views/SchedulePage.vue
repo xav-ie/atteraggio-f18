@@ -122,17 +122,24 @@ export default {
             },
             {
               location: "Terrance Lounge",
-              start: "12:00",
+              start: "12:30",
               end: "13:00",
               type: "event-2",
               full_name: "Team formation"
             },
             {
               location: "Hacking Area",
-              start: "12:30",
+              start: "12:00",
               end: "13:00",
               type: "event-2",
               full_name: "Lunch"
+            },
+            {
+              location: "Terrace Lounge",
+              start: "17:00",
+              end: "18:00",
+              type: "event-2",
+              full_name: "Women in Tech Meet Up"
             },
             {
               location: "Hacker Space",
@@ -150,7 +157,7 @@ export default {
             },
             {
               location: "3rd Floor",
-              start: "22:00",
+              start: "21:30",
               end: "24:00",
               type: "event-2",
               full_name: "Sleeping Spaces Open"
@@ -175,23 +182,30 @@ export default {
               full_name: "Piñata"
             },
             {
+              location: "Ziskind Lounge",
+              start: "21:00",
+              end: "21:30",
+              type: "event-1",
+              full_name: "Cupcakes!"
+            },
+            {
               location: "Terrace Lounge",
-              start: "21:15",
+              start: "21:30",
               end: "22:00",
               type: "event-1",
               full_name: "BU Gaming Club"
             },
             {
               location: "Conference Auditorium",
-              start: "21:30",
+              start: "21:45",
               end: "22:00",
               type: "event-1",
               full_name: "Open Mic Karaoke"
             },
             {
               location: "3rd Floor",
-              start: "21:45",
-              end: "22:00",
+              start: "22:00",
+              end: "22:15",
               type: "event-1",
               full_name: "Board Games"
             }
