@@ -162,8 +162,8 @@ export default {
           event_list: [
             {
               location: "Terrance Lounge",
-              start: "12:30",
-              end: "13:00",
+              start: "13:00",
+              end: "13:30",
               type: "event-1",
               full_name: "Team formation"
             },
