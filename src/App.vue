@@ -28,7 +28,7 @@
 
         <b-navbar fixed="top" id="nav" class="mobileHide">
 
-            <div style=loat:left;>
+            <div style=float:left;>
               <img id="BHacks" src ="./assets/Logos/BHacks_HorzWhte.svg"/>
             </div>
 
@@ -132,7 +132,7 @@ body {
 
 
 
-.routelink{
+.routelinks{
   margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
