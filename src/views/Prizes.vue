@@ -44,7 +44,7 @@
         <b-col sm="1" />
         <b-col sm="10" md="4" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
           <p class="category"> Spark! Fellowship Award </p>
-          <p class="prizeItem"> Spark! Fellowship</p>
+          <p class="prizeItem"> BU Spark! Fellowship</p>
           <p class="info">
             Winning idea will be awarded a Spark! Fellowship to continue work on
             their project through a semester-long spark! fellowship.
