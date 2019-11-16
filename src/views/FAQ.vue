@@ -13,7 +13,7 @@
         <b-col sm="10" md="3">
           <p class="infoTitle"> Are there any rules? </p>
           <p class="info"> We want to ensure a positive experience for every
-            participant. We encourage you to read out <b>code of conduct</b>.
+            participant. We encourage you to read our <b><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">code of conduct</a></b>.
           </p>
         </b-col>
         <b-col sm="10" md="3">
@@ -41,7 +41,7 @@
   /* height: 92vh; */
 }
 
-.info{
+.info {
   font-weight: 300;
   font-size: 1rem;
   margin-bottom: 30px;
@@ -54,7 +54,7 @@
   font-size: 3rem;
 }
 
-#title{
+#title {
   margin-top: 10vh;
 }
 
@@ -67,7 +67,7 @@
   text-align: center;
 }
 
-#redot{
+#redot {
   border: 1px solid #f05352;
   border-radius: 50px;
   background-color: #f05352;
@@ -75,17 +75,16 @@
   width: 0.75vw;
   display: inline-block;
 }
-
 </style>
 
 <script>
-  export default {
-    name: "Faq",
-    components: {
-      Live,
-      Flair
-    }
-  };
-  import Live from "../components/Live.vue"
-  import Flair from "../components/Flair.vue"
+export default {
+  name: "Faq",
+  components: {
+    Live,
+    Flair
+  }
+};
+import Live from "../components/Live.vue";
+import Flair from "../components/Flair.vue";
 </script>

@@ -23,7 +23,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            yarn install
+            yarn upgrade && yarn install
       - save_cache:
           paths:
             - ./node_modules
@@ -37,6 +37,6 @@ jobs:
           name: deploy live site
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              ssh -o StrictHostKeyChecking=no circleci@${BOSTONHACKS_IP_ADDR} 'rm -rf /home/quilluser/atteraggio-f18/dist'
-              scp -o StrictHostKeyChecking=no -r ~/atteraggio-f18/dist circleci@${BOSTONHACKS_IP_ADDR}:/home/quilluser/atteraggio-f18
+              ssh -o StrictHostKeyChecking=no circleci@${BOSTONHACKS_IP_ADDR} 'rm -rf /home/mhendrick/atteraggio-f18/dist'
+              scp -o StrictHostKeyChecking=no -r ~/atteraggio-f18/dist circleci@${BOSTONHACKS_IP_ADDR}:/home/mhendrick/atteraggio-f18
             fi

@@ -20,9 +20,9 @@
 </template>
 
 <script>
-  import Schedule from "./Schedule.vue"
-  import Live from "../components/Live.vue"
-  import Flair from "../components/Flair.vue"
+import Schedule from "./Schedule.vue";
+import Live from "../components/Live.vue";
+import Flair from "../components/Flair.vue";
 
 export default {
   name: "SchedulePage",
@@ -36,30 +36,86 @@ export default {
       animating: false,
       sat_day: true,
       sat_timeline: [
-        "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
-        "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30",
-        "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00",
-        "20:30", "21:00", "21:30", "22:00", "22:30", "23:00", "23:30", "24:00"
+        "9:00",
+        "9:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30",
+        "16:00",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30",
+        "22:00",
+        "22:30",
+        "23:00",
+        "23:30",
+        "24:00"
       ],
       sun_timeline: [
-        "0:00", "0:30", "1:00", "1:30", "2:00", "2:30", "3:00", "3:30", "4:00", "4:30", "5:00", "5:30",
-        "6:00", "6:30", "7:00", "7:30", "8:00", "8:30","9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00",
-        "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30"
+        "0:00",
+        "0:30",
+        "1:00",
+        "1:30",
+        "2:00",
+        "2:30",
+        "3:00",
+        "3:30",
+        "4:00",
+        "4:30",
+        "5:00",
+        "5:30",
+        "6:00",
+        "6:30",
+        "7:00",
+        "7:30",
+        "8:00",
+        "8:30",
+        "9:00",
+        "9:30",
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:00",
+        "13:30",
+        "14:00",
+        "14:30",
+        "15:00",
+        "15:30"
       ],
-      sat_events: [ // three categories
+      sat_events: [
+        // three categories
         {
           name: "General",
-          event_list:
-          [
+          event_list: [
             {
               location: "Metcalf Ballroom",
-              start: "9:00",
-              end: "10:30",
+              start: "10:00",
+              end: "11:30",
               type: "event-2",
               full_name: "Check-in"
             },
             {
-              start: "11:00",
+              start: "11:30",
               end: "12:00",
               type: "event-2",
               full_name: "Opening Ceremony"
@@ -72,20 +128,6 @@ export default {
               full_name: "Team formation"
             },
             {
-              location: "Conference Auditorium",
-              start: "13:00",
-              end: "14:00",
-              type: "event-2",
-              full_name: "Engineering with Neural Networks with Raytheon"
-            },
-            {
-              location: "Room 310",
-              start: "14:00",
-              end: "15:00",
-              type: "event-2",
-              full_name: "Intro to Web Development with Hack4Impact"
-            },
-            {
               location: "Hacking Area",
               start: "12:30",
               end: "13:00",
@@ -93,53 +135,73 @@ export default {
               full_name: "Lunch"
             },
             {
+              location: "Hacker Space",
               start: "18:30",
               end: "19:00",
               type: "event-2",
               full_name: "Dinner"
             },
             {
-              location: "Conference Auditorium and Terrace Lounge",
+              location: "Terrace Lounge",
+              start: "19:30",
+              end: "20:00",
+              type: "event-2",
+              full_name: "MLH Slideshow Karaoke"
+            },
+            {
+              location: "3rd Floor",
               start: "22:00",
               end: "24:00",
               type: "event-2",
-              full_name: "Movies"
-            },
+              full_name: "Sleeping Spaces Open"
+            }
           ]
         },
         {
-          name: "Flash Workshops",
-          event_list:
-          [
+          name: "Side Events",
+          event_list: [
             {
-              location: "GSU 310",
-              start: "20:00",
-              end: "20:30",
+              location: "Terrance Lounge",
+              start: "12:00",
+              end: "13:00",
               type: "event-1",
-              full_name: "Starting Up Your Start-up"
+              full_name: "Scavager Hunt"
             },
             {
-              location: "GSU 310",
+              location: "Metcalf Ballroom",
               start: "20:30",
               end: "21:00",
               type: "event-1",
-              full_name: "No Such Thing as Black Magic"
+              full_name: "Piñata"
             },
             {
-              location: "GSU 310",
-              start: "21:00",
-              end: "22:15",
+              location: "Terrace Lounge",
+              start: "21:15",
+              end: "22:00",
               type: "event-1",
-              full_name: "Skyrim Modding from a Skyrim Modder"
+              full_name: "BU Gaming Club"
+            },
+            {
+              location: "Conference Auditorium",
+              start: "21:30",
+              end: "22:00",
+              type: "event-1",
+              full_name: "Open Mic Karaoke"
+            },
+            {
+              location: "3rd Floor",
+              start: "21:45",
+              end: "22:00",
+              type: "event-1",
+              full_name: "Board Games"
             }
           ]
         }
       ],
-      sun_events:[
+      sun_events: [
         {
           name: "General",
-          event_list:
-          [
+          event_list: [
             {
               location: "BU Academy Room",
               start: "00:00",
@@ -148,73 +210,70 @@ export default {
               full_name: "Midnight Snack"
             },
             {
+              location: "Hacker Space",
               start: "8:00",
               end: "9:00",
               type: "event-2",
               full_name: "Breakfast"
             },
             {
+              location: "Hacker Space",
               start: "9:00",
-              end: "10:00",
+              end: "9:30",
               type: "event-2",
-              full_name: "Submissions due (10AM)"
+              full_name: "Submissions due"
             },
             {
-              location: "BU Academy Room",
+              location: "Hacker Space",
               start: "11:00",
-              end: "12:00",
-              type: "event-2",
-              full_name: "Lunch"
-            },
-            {
-              start: "12:00",
-              end: "13:30",
+              end: "13:00",
               type: "event-2",
               full_name: "Judging"
             },
             {
+              location: "Conference Auditorium",
               start: "14:00",
               end: "15:00",
               type: "event-2",
               full_name: "Closing Ceremony"
             },
-          ],
+            {
+              location: "In front of the GSU",
+              start: "15:30",
+              end: "16:00",
+              type: "event-2",
+              full_name: "Buses Leave"
+            }
+          ]
         },
         {
           name: "Side Events",
-          event_list:
-          [
+          event_list: [
             {
-              location: "Second Floor Metcalf",
+              location: "Conference Auditorium",
               start: "00:00",
               end: "1:00",
               type: "event-1",
-              full_name: "Pinata"
+              full_name: "Movies!"
             },
             {
-              location: "Conference Auditorium and Terrace Lounge",
-              start: "1:00",
-              end: "4:00",
-              type: "event-1",
-              full_name: "Movies"
-            },
-            {
-              start: "8:00",
-              end: "9:00",
+              location: "Terrace Lounge",
+              start: "7:00",
+              end: "8:00",
               type: "event-1",
               full_name: "Yoga"
-            },
+            }
           ]
         }
       ]
-    }
+    };
   },
   methods: {
     changeSat: function() {
-      this.sat_day = true
+      this.sat_day = true;
     },
     changeSun: function() {
-      this.sat_day = false
+      this.sat_day = false;
     }
   }
 };
