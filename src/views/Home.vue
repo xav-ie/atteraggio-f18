@@ -177,7 +177,7 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Devpost</span></p>
-            <p class="info">Coming Soon!</p>
+            <p class="info">Click <a href="https://bostonhacks-2019.devpost.com/">here</a> to submit your project!</p>
           </div>
         </b-col>
 
