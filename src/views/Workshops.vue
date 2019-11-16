@@ -75,13 +75,13 @@ export default {
         {
           title: "Hack4Impact: Intro to Web Development",
           time: "2:30pm - 3:30pm",
-          room: "Room 315"
+          room: "Room 312"
         },
         {
           title:
             "John Hancock: Reassembling the Web with WebAssembly and WebGL",
           time: "2:30pm - 3:30pm",
-          room: "Room 312"
+          room: "Room 315"
         },
         {
           title:
