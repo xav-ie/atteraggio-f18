@@ -122,14 +122,14 @@ export default {
             },
             {
               location: "Terrance Lounge",
-              start: "12:00",
+              start: "12:30",
               end: "13:00",
               type: "event-2",
               full_name: "Team formation"
             },
             {
               location: "Hacking Area",
-              start: "12:30",
+              start: "12:00",
               end: "13:00",
               type: "event-2",
               full_name: "Lunch"
