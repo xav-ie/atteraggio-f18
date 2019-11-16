@@ -5,13 +5,13 @@
       <div class="navContain">
 
 
-        <b-navbar toggleable="md" type="dark" variant="info" class="desktopHide" style="background-color: #6b6691 !important">
+        <b-navbar toggleable="md" type="dark" variant="info" class="desktopHide"  style="background-color: rgba(240, 83, 82, 0.8) !important; font-color:white;">
 
-          <b-navbar-toggle target="nav_collapse" style="background-color: #6b6691"></b-navbar-toggle>
+          <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-          <b-collapse is-nav id="nav_collapse" style="background-color: #6b6691">
+          <b-collapse is-nav id="nav_collapse">
 
-            <b-navbar-nav style="background-color: #6b6691; font-color:white;">
+            <b-navbar-nav>
               <b-nav-item><router-link class="routelink" to="/">Home</router-link></b-nav-item>
               <b-nav-item><router-link class="routelink" to="/faq">FAQ</router-link></b-nav-item>
               <b-nav-item><router-link class="routelink" to="/schedule">Schedule</router-link></b-nav-item>
@@ -56,29 +56,29 @@
 body {
   width: 100%;
   height: 100%;
-  background-color:#a73d59;
+  background-color:#fdddcc;
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
 
-  background-image: linear-gradient(
-    to bottom,
-    hsl(243.05, 46.46%, 24.9%) 0%,
-    hsl(243.26, 46.43%, 24.91%) 14.8%,
-    hsl(244.67, 46.23%, 24.93%) 27.2%,
-    hsl(248.25, 45.7%, 25.01%) 37.3%,
-    hsl(254.52, 44.68%, 25.15%) 48.5%,
-    hsl(263.59, 43.09%, 25.37%) 53.1%,
-    hsl(275.57, 40.85%, 25.69%) 57.5%,
-    hsl(290.88, 37.97%, 26.11%) 61.9%,
-    hsl(308.95, 38.24%, 28.23%) 65.7%,
-    hsl(322.67, 41.38%, 32.25%) 69.1%,
-    hsl(332.78, 43.77%, 36.63%) 73.5%,
-    hsl(340.57, 45.6%, 41.33%) 78.2%,
-    hsl(346.8, 46.99%, 46.33%) 83.5%,
-    hsl(351.93, 51.26%, 51.62%) 90.7%,
-    hsl(356.26, 65.21%, 57.16%) 99.1%,
-  );
+  // background-image: linear-gradient(
+  //   to bottom,
+  //   hsl(243.05, 46.46%, 24.9%) 0%,
+  //   hsl(243.26, 46.43%, 24.91%) 14.8%,
+  //   hsl(244.67, 46.23%, 24.93%) 27.2%,
+  //   hsl(248.25, 45.7%, 25.01%) 37.3%,
+  //   hsl(254.52, 44.68%, 25.15%) 48.5%,
+  //   hsl(263.59, 43.09%, 25.37%) 53.1%,
+  //   hsl(275.57, 40.85%, 25.69%) 57.5%,
+  //   hsl(290.88, 37.97%, 26.11%) 61.9%,
+  //   hsl(308.95, 38.24%, 28.23%) 65.7%,
+  //   hsl(322.67, 41.38%, 32.25%) 69.1%,
+  //   hsl(332.78, 43.77%, 36.63%) 73.5%,
+  //   hsl(340.57, 45.6%, 41.33%) 78.2%,
+  //   hsl(346.8, 46.99%, 46.33%) 83.5%,
+  //   hsl(351.93, 51.26%, 51.62%) 90.7%,
+  //   hsl(356.26, 65.21%, 57.16%) 99.1%,
+  // );
 }
 
 /* @media (max-width: 700px){
@@ -94,6 +94,7 @@ body {
   }
 }
 @media (min-width: 751px) {
+  
   .desktopHide {
     display: none !important;
   }
@@ -103,17 +104,18 @@ body {
 }
 
 #app {
+  background-color:#fef5f0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: #282561;
   font-size: 1.25rem;
 }
 
 #nav {
-  background-color: #6b6691;
+  background-color: rgba(240, 83, 82, 0.8);
   width: 100%;
-  height: 5vw;
+  height: 5vw; 
 
   display: flex;
   justify-content: space-between;
@@ -122,20 +124,22 @@ body {
     font-size: 1.1vw;
     color: #ffffff;
     &.router-link-exact-active {
-      color: #928aa7;
+      color: #282561;
     }
   }
 }
+
+
 
 
 .routelink{
   margin-right: 5vw;
   margin-bottom: 10vh;
   height: 100%;
-  color: white;
+  color: #282561;
 }
 .routelink:visited{
-  color: white;
+  color: #282561;
 }
 #BHacks {
   height: auto;

@@ -76,14 +76,14 @@ export default {
               start: "13:00",
               end: "14:00",
               type: "event-2",
-              full_name: "Stakeholder Talks"
+              full_name: "Engineering with Neural Networks with Raytheon"
             },
             {
-              locattion: "Room 310",
+              location: "Room 310",
               start: "14:00",
               end: "15:00",
               type: "event-2",
-              full_name: "Women in Tech Meetup"
+              full_name: "Intro to Web Development with Hack4Impact"
             },
             {
               location: "Hacking Area",

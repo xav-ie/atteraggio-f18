@@ -52,7 +52,7 @@ export default {
     return {
       cards: [
         {
-          title: "Native Smart-Contracts on Bitcoin by Stratis",
+          title: "Engineering with Neural Networks by Raytheon",
           time: "2:00pm - 3:00pm",
           room: "Conference Auditorium"
         },

@@ -22,7 +22,7 @@
       <b-row>
         <b-col md="1" />
         <b-col sm="10" md="3">
-          <p class="category"> Giving Back to Veterans Track </p>
+          <p class="category"> Next Gen Track </p>
           <p class="prizeItem"> Amazon Echo Sports </p>
           <p class="info"> Veterans risked their lives to let you sit in the
             comfort of your home, or at BostonHacks, and code. It’s time to give
@@ -31,7 +31,7 @@
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> The Smart Home Track</p>
+          <p class="category"> Problem for the Ages Track</p>
           <p class="prizeItem"> Google Home Hub and 2 Lights Starter Pack </p>
           <p class="info">Learn how to create Internet of Things devices and
             robots to realize the dream of the smart home. Get your hands on
@@ -40,7 +40,7 @@
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Data for Urban Good Track</p>
+          <p class="category"> Back to the Future Track</p>
           <p class="prizeItem">Surface Go Tablets, Typecovers, and Surface Pens</p>
           <p class="info">
             To the team/project that best addreses one or more of the following
