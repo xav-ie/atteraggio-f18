@@ -56,6 +56,17 @@
             </a>
           </p>
         </b-col>
+        <b-col sm="10" md="3" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
+          <p class="category"> BU Spark! Computational Art Prize </p>
+          <p class="prizeItem"> $250 for the team </p>
+          <p class="info"> Create a project that is grounded in and highlights the intersection of computer science/engineering. We encourage you to push the limits of the tools made avaible to you this weekend. Discover computational art <a href="https://franciscoalarcon.info/">here</a>.
+          </p>
+        </b-col>
+        <b-col sm="10" md="3">
+          <p class="category"> BU Spark! 0 Waste Prize </p>
+          <p class="prizeItem"> $250 for the team </p>
+          <p class="info"> Create sustainability project that promotes more sustainable everyday living! Your sustainability project can address issues in climate, waste, water, transportation, food, buildings, purchasing, and many more. The possibilites are endless! </p>
+        </b-col>
       </b-row>
       <b-row>
         <b-col md="1" />
@@ -113,7 +124,7 @@
           <p class="prizeItem"> UiPath/MLH Backpack and an Internship Interview </p>
           <p class="info"> Build an automation hack using UiPath! Each winning team member will receive a UiPath/MLH Branded Backpack and an opportunity to interview for a UiPath Internship in 2020 with a high recommendation! </p>
         </b-col> -->
-        
+
       </b-row>
 
 
