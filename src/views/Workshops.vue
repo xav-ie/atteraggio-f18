@@ -121,7 +121,7 @@ export default {
           room: "Room 310"
         },
         {
-          title: "0xBU: Decompiling Programs with Ghidraw",
+          title: "0xBU: Decompiling Programs with Ghidra",
           time: "7:30pm - 8:30pm",
           room: "Room 315"
         }
