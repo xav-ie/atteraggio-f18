@@ -53,82 +53,77 @@ export default {
       cards: [
         {
           title: "Raytheon: Engineering with Neural Networks",
-          time: "1:00pm - 2:00pm",
-          room: "Conference Auditorium"
+          time: "1:30pm - 2:30pm",
+          room: "Room 310"
         },
         {
           title: "BU SHPE: Communicating Beyond The Code",
-          time: "1:00pm - 2:00pm",
-          room: "Terrace Lounge"
+          time: "1:30pm - 2:30pm",
+          room: "Room 315"
         },
         {
           title:
             "BU High Performance Computing: A Hacker's Guide to Parallelization-",
-          time: "1:00pm - 2:00pm",
-          room: "Conference Auditorium"
+          time: "1:30pm - 2:30pm",
+          room: "Room 312"
         },
         {
           title: "AstraZenca",
-          time: "2:00pm - 3:00pm",
-          room: "Terrace Lounge"
+          time: "2:30pm - 3:30pm",
+          room: "Room 310"
         },
         {
           title: "Hack4Impact: Intro to Web Development",
-          time: "2:00pm - 3:00pm",
-          room: "Room 312"
+          time: "2:30pm - 3:30pm",
+          room: "Room 315"
         },
         {
           title:
             "John Hancock: Reassembling the Web with WebAssembly and WebGL",
-          time: "2:00pm - 3:00pm",
-          room: "Conference Auditorium"
+          time: "2:30pm - 3:30pm",
+          room: "Room 312"
         },
         {
           title:
             "Google: Three Powerful Google Cloud Products for Your Project",
-          time: "3:00pm - 4:00pm",
-          room: "Terrace Lounge"
+          time: "3:30pm - 4:30pm",
+          room: "Room 310"
         },
         {
           title:
             "Leveraging Serverless Compute to Build Cross Platform Applications with Flutter",
-          time: "3:00pm - 4:00pm",
-          room: "Room 312"
+          time: "3:30pm - 4:30pm",
+          room: "Room 315"
         },
         {
           title: "CapitalOne AWS Lambda",
-          time: "4:00pm - 5:00pm",
-          room: "Conference Auditorium"
+          time: "4:30pm - 5:30pm",
+          room: "Room 310"
         },
         {
           title: "Hack4Impact: iOS Development with Swift",
-          time: "4:00pm - 5:00pm",
-          room: "Terrace Lounge"
+          time: "4:30pm - 5:30pm",
+          room: "Room 315"
         },
         {
           title: "BU AR/VR: Intro to VR Development Using Unity",
-          time: "4:00pm - 5:00pm",
+          time: "4:30pm - 5:30pm",
           room: "Room 312"
         },
         {
           title: "Bose",
-          time: "5:00pm - 6:00pm",
-          room: "Terrace Lounge"
-        },
-        {
-          title: "Global App Initiative: Creating a Python Web Server",
-          time: "5:00pm - 6:00pm",
-          room: "Room 312"
+          time: "5:30pm - 6:30pm",
+          room: "Room 310"
         },
         {
           title: "BUILDS: p5.js and Graphics on the Web",
-          time: "8:00pm - 9:00pm",
-          room: "Room 312"
+          time: "7:30pm - 8:30pm",
+          room: "Room 310"
         },
         {
           title: "0xBU: Decompiling Programs with Ghidraw",
-          time: "8:00pm - 9:00pm",
-          room: "Room 312"
+          time: "7:30pm - 8:30pm",
+          room: "Room 315"
         }
       ]
     };

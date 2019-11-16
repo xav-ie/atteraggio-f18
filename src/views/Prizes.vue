@@ -11,8 +11,8 @@
       <b-row id="infoRow">
         <b-col md="1" />
         <b-col sm="10" md="4" style="border-bottom: 1px solid grey; padding-bottom: 1vh; margin-bottom: 1vh;">
-          <p class="category">Best Overall Hack </p>
-          <p class="prizeItem"> Nintendo Switches</p>
+          <p class="category"> Best Overall Hack </p>
+          <p class="prizeItem"> Drones </p>
           <p class="info">
             For the best overall hack made during the event!
           </p>
@@ -77,123 +77,57 @@
       <b-row>
         <b-col md="1" />
         <b-col sm="10" md="3">
-          <p class="category"> Best use of GIPHY API </p>
-          <p class="prizeItem"> 3D Printing Pen and GIPHY Engineering T-shirt for Each Team Member </p>
-          <p class="info"> The best use of GIPHY API will be awarded to the team that most creatively leverages GIPHY's API in their project.
+          <p class="category"> Best use of Transposit </p>
+          <p class="prizeItem"> $50 Amazon Gift Card for Each Team Member </p>
+          <p class="info"> Only 24 hours to create your project? No problem, Create an app and compose different APIs together with the world's first API composition platform, Transposit.
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Liberty Mutual - Best Hack to Live Safe, More Secure Lives </p>
-          <p class="prizeItem"> Winners Will Receive Drones for Each Team Member </p>
-          <p class="info">-Must have a clearly defined problem
--Preferably polished<br>
--Fill out form at: https://sites.google.com/view/liberty-at-bostonhacks<br>
--BONUS POINTS for using the ShineAPI built by Liberty's Solaria Labs.
-          </p>
+          <p class="category"> Bose </p>
+          <p class="prizeItem"> TBD </p>
+          <p class="info"> TBD </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Twilio — Best use of Twilio API </p>
-          <p class="prizeItem">Star Wars Millennium Falcon Waffle Makers</p>
-          <p class="info">
-            Best Use of the API.
-          </p>
+          <p class="category"> Facebook </p>
+          <p class="prizeItem"> TBD </p>
+          <p class="info"> TBD </p>
         </b-col>
       </b-row>
       <b-row>
         <b-col md="1" />
         <b-col sm="10" md="3" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
-          <p class="category"> Best use of Algolia </p>
-          <p class="prizeItem"> Casio CA-506C-5A Calculator Watch for Each Team Member </p>
-          <p class="info"> Best use of Algolia.
+          <p class="category"> Capital One </p>
+          <p class="prizeItem"> $250 Amazon Gift Card/team member </p>
+          <p class="info"> TBD
           </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Best use of Google Cloud Platform </p>
-          <p class="prizeItem"> Google Home Minis for Each Team Member </p>
-          <p class="info"> Best use of GCP.
-          </p>
+          <p class="category"> Raytheon Challenge </p>
+          <p class="prizeItem"> TBD </p>
+          <p class="info"> TBD </p>
         </b-col>
         <b-col sm="10" md="3">
+          <p class="category"> Best use of Google Cloud </p>
+          <p class="prizeItem"> Google Home Mini for Each Team Member </p>
+          <p class="info"> Build your hackathon project with a suite of secure storage, powerful compute, and integrated data analytics products provided by Google Cloud. See full list of products here: g.co/cloud. </p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col md="1" />
+        <b-col sm="10" md="3" style="border-top: 1px solid grey;">
           <p class="category"> Best Domain Name from Domain.com </p>
-          <p class="prizeItem">Raspberry Pi and PiHut Essential Kit for each Team Member</p>
-          <p class="info">
-            Best domain name.
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col md="1" />
-        <b-col sm="10" md="3" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
-          <p class="category"> Best IoT Hack Using a Qualcomm Device </p>
-          <p class="prizeItem"> 410C Dragonboard for each Team Member </p>
-          <p class="info"> Best IoT Hack Using a Qualcomm Device.
-          </p>
+          <p class="prizeItem"> Domain.com Backpack </p>
+          <p class="info"> Register a domain using Domain.com during the weekend. Each team may submit one entry per person on the team. Each winning team member will receive a Domain.com branded backpack. </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Best Chat Bot using Botkit and Cisco Webex Teams </p>
-          <p class="prizeItem"> Power banks for each team member </p>
-          <p class="info"> Best Chat Bot using Botkit and Cisco Webex.
-          </p>
+          <p class="category"> Best Automation Hack with UiPath </p>
+          <p class="prizeItem"> UiPath/MLH Backpack and an Internship Interview </p>
+          <p class="info"> Build an automation hack using UiPath! Each winning team member will receive a UiPath/MLH Branded Backpack and an opportunity to interview for a UiPath Internship in 2020 with a high recommendation! </p>
         </b-col>
         <b-col sm="10" md="3">
-          <p class="category"> Best use of HERE.com </p>
-          <p class="prizeItem">Hacker gear and swag from HERE.com</p>
-          <p class="info">
-            Best user of HERE.com.
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col md="1" />
-        <b-col sm="10" md="3" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
-          <p class="category"> Best use of Clarifai’s API </p>
-          <p class="prizeItem"> Hacker gear from Clarifai for Each Team Member </p>
-          <p class="info"> Best use of Clarifai's API.
-          </p>
-        </b-col>
-        <b-col sm="10" md="3">
-          <p class="category"> Snap Kit Weekly Challenge </p>
-          <p class="prizeItem"> Spectacles by Snapchat for Each Team Member </p>
-          <p class="info"> Best use of Snap Kit.
-          </p>
-        </b-col>
-        <b-col sm="10" md="3">
-          <p class="category"> Best Social Good Hack from Fidelity </p>
-          <p class="prizeItem">$50 Gift Cards from Fidelity for Each Team Member</p>
-          <p class="info">
-            Best social good hack.
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col md="1" />
-        <b-col sm="10" md="3" style="border-top: 1px solid grey; border-bottom: 1px solid grey;">
-          <p class="category"> Best Use of Authorize.net </p>
-          <p class="prizeItem"> LS20 Gaming Headsets for Each Team Member </p>
-          <p class="info"> Best use of Authorize.net.
-          </p>
-        </b-col>
-        <b-col sm="10" md="3">
-          <p class="category"> Bose - Most creative use of Bose SoundTouch Speaker API </p>
-          <p class="prizeItem"> Bose QuietComfort 35 II Noise Cancelling Headphones with Google assistant and Amazon Alexa Built-In Support </p>
-          <p class="info"> Most creative use of Bose SoundTouch Speaker API.
-          </p>
-        </b-col>
-        <b-col sm="10" md="3">
-          <p class="category"> IBM - Best Use of IBM Cloud </p>
-          <p class="prizeItem">Bose QuietComfort 35 II Noise Cancelling Headphones with Google assistant and Amazon Alexa Built-In Support</p>
-          <p class="info">
-            Best Use of IBM Cloud.
-          </p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col md="1" />
-        <b-col sm="10" md="3">
-          <p class="category"> OneDB - Best Use of OneDB Platform </p>
-          <p class="prizeItem"> $100 Amazon Gift Card for Each Team Member </p>
-          <p class="info"> Best use of OneDb.
-          </p>
+          <p class="category"> Best use of Twilio </p>
+          <p class="prizeItem"> $50 Amazon Gift Card for Each Team Member </p>
+          <p class="info"> Create a hack using Twilio's powerful communications API. Do things like send SMS messages, phone calls, email, and much more in your project. The team that has the best use of Twilio will win a $50 Amazon gift card per team member. </p>
         </b-col>
       </b-row>
 
