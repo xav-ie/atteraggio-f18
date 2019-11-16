@@ -23,38 +23,21 @@
         <b-col md="1" />
         <b-col sm="10" md="3">
           <p class="category"> Next Gen Track </p>
-          <p class="prizeItem"> Amazon Echo Sports </p>
-          <p class="info"> Veterans risked their lives to let you sit in the
-            comfort of your home, or at BostonHacks, and code. It’s time to give
-            back and create solutions for problems countless veterans face every
-            day.
+          <p class="prizeItem"> UberEats GiftCards for Each Team Member </p>
+          <p class="info"> School only prepares us for so much. In service of the next generation, think either about tools you wish you had to help you learn difficult concepts school or the skills you wish you had entering the real world.
           </p>
         </b-col>
         <b-col sm="10" md="3">
           <p class="category"> Problem for the Ages Track</p>
-          <p class="prizeItem"> Google Home Hub and 2 Lights Starter Pack </p>
-          <p class="info">Learn how to create Internet of Things devices and
-            robots to realize the dream of the smart home. Get your hands on
-            state-of-the-art hardware and study the intimate interaction of
-            humans and technology.
+          <p class="prizeItem"> FitBits for Each Team Member </p>
+          <p class="info">It's easy to think that some problems are too big to solve today. Instead of leaving them for the future, reflect on how we can build products that tackle issues that will be affecting us for generations to come. Examples include climate change, the refugee crisis, and racial & gender equity.
           </p>
         </b-col>
         <b-col sm="10" md="3">
           <p class="category"> Back to the Future Track</p>
-          <p class="prizeItem">Surface Go Tablets, Typecovers, and Surface Pens</p>
+          <p class="prizeItem"> Tile Trackers for Each Team Member</p>
           <p class="info">
-            To the team/project that best addreses one or more of the following
-            StreetCaster Projects.
-            <br />
-            For more information visit:
-              <a href="https://tinyurl.com/BostonStreetCaster">
-                Boston Street Caster
-              </a>
-            <br />
-            <b>Challenge 1:</b> Automate Boston’s Ground Truth Sidewalk Data <br />
-            <b>Challenge 2:</b> Street Quality Indicators <br />
-            <b>Challenge 3:</b> Park Quality Indicators <br />
-          </p>
+            As you get older, doing ordinary things can seem like an impossible task. Help your future self out by developing tools that make accomplishing day-to-day tasks for elderly people easier than ever.</p>
         </b-col>
       </b-row>
       <b-row>
