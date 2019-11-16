@@ -162,13 +162,6 @@ export default {
           event_list: [
             {
               location: "Terrance Lounge",
-              start: "12:00",
-              end: "13:00",
-              type: "event-1",
-              full_name: "Scavager Hunt"
-            },
-            {
-              location: "Terrance Lounge",
               start: "12:30",
               end: "13:00",
               type: "event-1",
@@ -201,13 +194,6 @@ export default {
               end: "22:00",
               type: "event-1",
               full_name: "Open Mic Karaoke"
-            },
-            {
-              location: "3rd Floor",
-              start: "22:00",
-              end: "22:15",
-              type: "event-1",
-              full_name: "Board Games"
             }
           ]
         }
