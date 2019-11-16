@@ -69,13 +69,13 @@
 
             <b-col id="heroText" style="max-width: 100% !important;">
               <div >
-                <p class="heroText"> Boston<span id="bolder">Hacks</span> 2018 </p>
+                <p class="heroText"> Boston<span id="bolder">Hacks</span> 2019 </p>
                 <img
                   class="Flair mobileHide"
                   id="BlueCircle"
                   src="../assets/Shapes/Circle/BlueThickCircle.svg"
                 />
-                <p class="date">November 10 &#8211; November 11, 2018<br>
+                <p class="date">November 16 &#8211; November 17, 2019<br>
                 775 Commonwealth Avenue, Boston University</p>
               </div>
             </b-col>
@@ -147,9 +147,9 @@
 
     <b-container id="links" class="container-fluid">
       <b-row id="links" class="links container-fluid">
-        <b-col sm="12" md="4">
+        <b-col sm="12" md="3">
           <div>
-            <img class="icon" src="../assets/Icons/wifi.svg"/>
+            <!-- <img class="icon" src="../assets/Icons/wifi.svg"/> -->
           </div>
 
           <div>
@@ -159,9 +159,9 @@
           </div>
         </b-col>
 
-        <b-col sm="12" md="4">
+        <b-col sm="12" md="3">
           <div>
-            <img class="icon" src="../assets/Icons/slack.svg"/>
+            <!-- <img class="icon" src="../assets/Icons/slack.svg"/> -->
           </div>
           <div>
             <p class="headInfo"><span id="bolder">Slack</span></p>
@@ -171,9 +171,9 @@
           </div>
         </b-col>
 
-        <b-col sm="12" md="4">
+        <b-col sm="12" md="3">
           <div>
-            <img class="icon" src="../assets/Icons/link.svg"/>
+            <!-- <img class="icon" src="../assets/Icons/link.svg"/> -->
           </div>
 
           <div>
@@ -187,7 +187,7 @@
 
         <b-col sm="12" md="3">
           <div>
-            <img class="icon" src="../assets/Icons/wifi.svg"/>
+            <!-- <img class="icon" src="../assets/Icons/wifi.svg"/> -->
           </div>
           <div>
               <p class="headInfo"><span id="bolder">HelpQ</span></p>
@@ -207,30 +207,30 @@
 
     <b-container fluid >
       <b-row class="logos" style="padding: 3vw 5vw 0 5vw;">
-        <b-col><img class="logoThin" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/BUCS/BucsLogo.jpg"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Giphy/giphyEngineeringLogo.jpg"/></b-col>
-        <b-col><img class="logoTall" src="../assets/Logos/Github/githubLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/IBM/ibmLogo.png"/></b-col>
-        <b-col><img class="logoTall" src="../assets/Logos/ITG/itgWhiteLogo.png"/></b-col>
-      </b-row>
+        <b-col><img class="logoThin" src="../assets/Logos/AstraZeneca/AstraZeneca.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Bose/BoseLogo.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/CapOne/CapOne.png"/></b-col>
+        <b-col><img class="logoTall" src="../assets/Logos/Google/Google Cloud horizontal lockup 4-color printing website and 4-color tee printing only 08.14.19.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/JohnHancock/JohnHancock.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>      </b-row>
 
       <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
-        <b-col><img class="logoThin" src="../assets/Logos/Liberty/libertyLogo.png"/></b-col>
-        <b-col><img class="logoThin" src="../assets/Logos/MassRobotics/massRoboLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/OneDB/onedbLogo.svg"/></b-col>
-        <b-col><img class="logoThin" src="../assets/Logos/Raytheon/raytheonLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Spark/SparkLogo.png"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/stringandloop_Logo_Black.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Twilio/twilio-logo-red.svg"/></b-col>
+        <b-col><img class="logoThin" src="../assets/Logos/StickerMule/stickerMule.svg"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Kind/kind.svg"/></b-col>
+        
+        
+        
       </b-row>
 
-      <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
+     <!-- <b-row class="logos" style="padding: 4vw 5vw 4vw 5vw;">
         <b-col><img class="logoThin" src="../assets/Logos/Stratis/StratisLogo.png"/></b-col>
-        <b-col><img class="logo" src="../assets/Logos/Twilio/twilioBW.png"/></b-col>
+        <b-col><img class="logo" src="../assets/Logos/Google/googleLogo.png"/></b-col>
         <b-col><img class="logoThin" src="../assets/Logos/UniRobot/uniRobotsLogo.png"/></b-col>
         <b-col><img class="logo" src="../assets/Logos/Unity/unityWhiteLogo.png"/></b-col>
-        <!-- <b-col></b-col> -->
-      </b-row>
+      </b-row> -->
 
     </b-container>
 
@@ -250,7 +250,7 @@ import Live from "../components/Live.vue"
 
 <style scoped lang="scss">
 a {
-  color: #ffffff;
+  color: #282561;
   font-weight: 700;
 }
 
@@ -342,7 +342,7 @@ a {
 }
 
 .heroText {
-  color: white;
+  color: #282561;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 3rem;
