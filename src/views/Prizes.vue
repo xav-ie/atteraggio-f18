@@ -175,8 +175,8 @@
         </b-col>
         <b-col sm="10" md="3">
           <p class="category"> Bose - Most creative use of Bose SoundTouch Speaker API </p>
-          <p class="prizeItem"> Bose QuietComfort 35 II Noise Cancelling Headphones with Google assistant and Amazon Alexa Built-In Support </p>
-          <p class="info"> Most creative use of Bose SoundTouch Speaker API.
+          <p class="prizeItem"> 5 Bose Noise Cancelling Headphones 700 </p>
+          <p class="info"> Hack something with BoseAR SDK or Bose SoundTouch API!.
           </p>
         </b-col>
         <b-col sm="10" md="3">
