@@ -154,7 +154,8 @@
 
           <div>
             <p class="headInfo"><span id="bolder">Wifi</span></p>
-            <p class="info">Coming Soon!</p>
+            <p class="info">Username: BostonHacks</p>
+            <p class="info">Password: BostonHacks2019</p>
           </div>
         </b-col>
 
