@@ -52,76 +52,82 @@ export default {
     return {
       cards: [
         {
-          title: "Native Smart-Contracts on Bitcoin by Stratis",
+          title: "Raytheon: Engineering with Neural Networks",
+          time: "1:00pm - 2:00pm",
+          room: "Conference Auditorium"
+        },
+        {
+          title: "BU SHPE: Communicating Beyond The Code",
+          time: "1:00pm - 2:00pm",
+          room: "Terrace Lounge"
+        },
+        {
+          title:
+            "BU High Performance Computing: A Hacker's Guide to Parallelization-",
+          time: "1:00pm - 2:00pm",
+          room: "Conference Auditorium"
+        },
+        {
+          title: "AstraZenca",
+          time: "2:00pm - 3:00pm",
+          room: "Terrace Lounge"
+        },
+        {
+          title: "Hack4Impact: Intro to Web Development",
+          time: "2:00pm - 3:00pm",
+          room: "Room 312"
+        },
+        {
+          title:
+            "John Hancock: Reassembling the Web with WebAssembly and WebGL",
           time: "2:00pm - 3:00pm",
           room: "Conference Auditorium"
         },
         {
           title:
-            "Intro to Programming for the Robot Operating System (ROS) by Lucas Watson (Software Intern at Piaggio Fast Forward)",
-          time: "2:00pm - 3:00pm",
-          room: "Terrace Lounge"
-        },
-        {
-          title:
-            "Intro to HTTP and WebSocket APIs with Bose SoundTouch speakers by Bose",
-          time: "3:00pm - 4:00pm",
-          room: "Conference Auditorium"
-        },
-        {
-          title:
-            "Intro to the UR Robot Arm by Mass Robotics and Universal Robot",
+            "Google: Three Powerful Google Cloud Products for Your Project",
           time: "3:00pm - 4:00pm",
           room: "Terrace Lounge"
         },
         {
           title:
-            "Intro to Web Development with React by Christopher Trinh (BU student developer)",
+            "Leveraging Serverless Compute to Build Cross Platform Applications with Flutter",
           time: "3:00pm - 4:00pm",
           room: "Room 312"
         },
         {
-          title: "Intro to FinTec by ITG",
+          title: "CapitalOne AWS Lambda",
           time: "4:00pm - 5:00pm",
           room: "Conference Auditorium"
         },
         {
-          title:
-            "Intro to Backend Development with Node.js and Express by Open Web",
+          title: "Hack4Impact: iOS Development with Swift",
           time: "4:00pm - 5:00pm",
           room: "Terrace Lounge"
         },
         {
-          title: "Code with a Conscience Presented By Hack4Impact",
+          title: "BU AR/VR: Intro to VR Development Using Unity",
           time: "4:00pm - 5:00pm",
           room: "Room 312"
         },
         {
-          title: "IBM Cloud Function as the backend for your hackathon app",
-          time: "5:00pm - 6:00pm",
-          room: "Conference Auditorium"
-        },
-        {
-          title: "Simmetri Workshops by BU AR/VR",
+          title: "Bose",
           time: "5:00pm - 6:00pm",
           room: "Terrace Lounge"
         },
         {
-          title:
-            "Intro to Google Cloud Platform by Julia Bighetto (GCP Student Ambassador)",
+          title: "Global App Initiative: Creating a Python Web Server",
           time: "5:00pm - 6:00pm",
           room: "Room 312"
         },
         {
-          title:
-            "Intro to Git by Rudhra Raveendran (Github Student Ambassador)",
-          time: "6:00pm - 7:00pm",
-          room: "Terrace Lounge"
+          title: "BUILDS: p5.js and Graphics on the Web",
+          time: "8:00pm - 9:00pm",
+          room: "Room 312"
         },
         {
-          title:
-            "Intro to Machine Vision by Carlos Asmat (Piaggio Fast Forward)",
-          time: "6:00pm - 7:00pm",
+          title: "0xBU: Decompiling Programs with Ghidraw",
+          time: "8:00pm - 9:00pm",
           room: "Room 312"
         }
       ]
