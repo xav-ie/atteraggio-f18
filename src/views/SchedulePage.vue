@@ -121,13 +121,6 @@ export default {
               full_name: "Opening Ceremony"
             },
             {
-              location: "Terrance Lounge",
-              start: "12:30",
-              end: "13:00",
-              type: "event-2",
-              full_name: "Team formation"
-            },
-            {
               location: "Hacking Area",
               start: "12:00",
               end: "13:00",
@@ -173,6 +166,13 @@ export default {
               end: "13:00",
               type: "event-1",
               full_name: "Scavager Hunt"
+            },
+            {
+              location: "Terrance Lounge",
+              start: "12:30",
+              end: "13:00",
+              type: "event-1",
+              full_name: "Team formation"
             },
             {
               location: "Metcalf Ballroom",
